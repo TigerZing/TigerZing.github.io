@@ -16,8 +16,8 @@
 title: Tan-Ho Nguyen
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/matjek"
-url: "https://shawnteoh.github.io"
+baseurl: "/TigerZing"
+url: "https://TigerZing.github.io"
 permalink: /:year/:month/:day/:title
 repository: ShawnTeoh/matjek
 paginate: 5
