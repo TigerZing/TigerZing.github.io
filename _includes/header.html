@@ -10,10 +10,16 @@
       {{ site.title | escape }}
       {% endif %}
     </title>
+    <style>
+      .titlePage{
+        font-family: 'Dancing Script', cursive;
+      }
+    </style>
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     {% for css in layout.css %}
     {% if css contains "//" %}
     <link rel="stylesheet" href="{{css}}">
@@ -38,7 +44,7 @@
       <nav class="top-nav teal">
         <div class="nav-wrapper">
           <div class="container">
-            <a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
+            <a class="page-title titlePage" href="{{site.baseurl}}/">{{site.title}}</a>
           </div>
         </div>
       </nav>
