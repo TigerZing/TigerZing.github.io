@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Categories"
+title: "Curriculum Vitae"
 css: ["categories.css"]
 ---
-{% include categories.html %}
+{% include cv.html %}
