@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Certificate"
-css: ["certificate.css"]
+title: "Curriculum Vitae"
+css: ["categories.css"]
 ---
-{% include certificate.html %}
+{% include cv.html %}
