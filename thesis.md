@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Graduate Thesis"
 css: ["categories.css"]
 ---
