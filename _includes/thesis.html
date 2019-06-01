@@ -1,0 +1,20 @@
+<div class="col s12 cat-div">
+        <div class="cat-list">
+          {% for cat in site.categories %}
+          {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
+          {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
+          <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{cat[0]}}</div></a>
+          {% endfor %}
+        </div>
+        <div class="divider"></div>
+        <div>
+                <div class="col s12">
+                        <div class="card hoverable">
+                          <div class="card-content">
+                                <embed src="{{site.baseurl}}/assets/res/thesis.html" type="application/pdf" width="100%" height="600px" />
+                          </div>
+                        </div>
+                      </div>
+           
+        </div>
+      </div>
