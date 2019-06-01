@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Certificate"
+title: "Certificates"
 css: ["certificate.css"]
 ---
 {% include certificate.html %}
