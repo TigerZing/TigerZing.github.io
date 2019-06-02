@@ -8,6 +8,19 @@
   i
     color: #fff
     padding: 10px
+    
+.tag-chip
+  color: #616161
+  margin-right: 5px
+  text-decoration: none
+
+  &:hover
+    div
+      color: #fff
+      background-color: #616161
+
+  div
+    @include transition(all .3s ease-in-out)
 
 .card
   margin-bottom: 20px
@@ -55,13 +68,3 @@
 
 .hidden
   display: none
-
-.tag-chip
-  color: #616161
-  margin-right: 5px
-  text-decoration: none
-
-  &:hover
-    div
-      color: #fff
-      background-color: #616161
