@@ -31,21 +31,13 @@ height: 100%;
             <iframe width="800" height="450" src="https://www.youtube.com/embed/Ko8M0Uao6FE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="divider"></div>
         <div class="tag-index">
-          {% for tag in site.tags %}
-          {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
-          {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-          <h4 id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{tag[0]}}</h4>
-          <ul class="tag-post">
-            {% for post in tag[1] %}
-            <a class="post-title" href="{{site.baseurl}}{{post.url}}" target="_blank">
-              <li>
-                {{post.title}}
-                <small class="post-date">{{post.date | date_to_string}}</small>
-              </li>
-            </a>
-            {% endfor %}
-          </ul>
-          {% endfor %}
+          <h6><i class="material-icons">alarm</i>Start: </h6>07/2018
+          <h6><i class="material-icons">code</i>Programming languages: </h6> Python, Django, HTML/CSS, AJAX
+          <h6><i class="material-icons">developer_board</i>Framework | models keywords: </h6>Yolo, MTCNN, Haarcascade, VGG16
+          <h6><i class="material-icons">memory</i> Techniques: </h6> Face detection, Face recognion, Person detection, Person attribute classification, Face clustering
+            <ul class="tag-post">
+            </ul>
         </div>
       </div>
