@@ -1,4 +1,5 @@
 <div class="col s12 tag-div">
+          <!--
         <div class="tag-list">
           {% for tag in site.tags %}
           {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
@@ -6,6 +7,7 @@
           <a class="tag-chip" href="#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}}</div></a>
           {% endfor %}
         </div>
+        -->
         <div class="divider"></div>
         <div class="tag-index">
           {% for tag in site.tags %}
