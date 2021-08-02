@@ -56,8 +56,8 @@ defaults:
       comments: "true"
 
 # Serving
-url: ""
-baseurl: ""
+url: "https://tigerzing.github.io/"
+baseurl: "https://tigerzing.github.io/"
 
 # Includes
 include: ["_pages"]
