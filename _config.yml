@@ -56,7 +56,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "https://tigerzing.github.io/"
+url: "https://tigerzing.github.io"
 baseurl: "tigerzing.github.io"
 
 # Includes
