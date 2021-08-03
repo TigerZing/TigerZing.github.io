@@ -78,7 +78,7 @@ permalink: "/Portfolio/"
         
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/vizwiz2020.png">
+                <img width="95%"  src="/assets/images/Porfolios/person_attributes.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
