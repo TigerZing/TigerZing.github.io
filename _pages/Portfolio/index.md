@@ -38,7 +38,7 @@ permalink: "/Portfolio/"
 
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/dp2020.gif">
+                <img width="95%"  src="/assets/images/Porfolios/tank.gif">
                 <br>
                 <br>
             </td>
