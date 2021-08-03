@@ -25,10 +25,8 @@ permalink: "/Portfolio/"
             <td>
                 <span style="font-size: 15pt;">
                     <b>EyeTeck: A system to find people in surveillance cameras </b><br>
-                    <b>Nguyen Tan Ho</b>, Thuy T. T. Tran
                 </span>
-                <b>Nguyen Tan Ho</b>, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a>, Gang He<br>
-                In IEEE Transactions on Image Processing (TIP), 2021. <br>
+                    <b>Nguyen Tan Ho</b>, Thuy T. T. Tran
                 [<a href="https://doi.org/10.1109/TIP.2020.3046872">Paper (Open Access)</a>]
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">GitHub</a>]
@@ -46,9 +44,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>Deep Preset: Blending and Retouching Photos with Color Style Transfer</b><br>
+                    <b>Tank game 2016: Can you win this game with our AI bots? </b><br>
                 </span>
-                <b>Man M. Ho</b>, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
+                 <b>Nguyen Tan Ho</b><br>
                 In Winter Conference on Applications of Computer Vision (WACV), 2021. <br>
                 [<a href="https://arxiv.org/abs/2007.10701">Paper</a>]
                 [<a href="https://minhmanho.github.io/deep_preset/">Webpage</a>]
