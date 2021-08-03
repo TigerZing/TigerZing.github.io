@@ -15,7 +15,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
     <tbody>
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/dpscan2021.gif">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
