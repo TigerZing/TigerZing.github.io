@@ -1,9 +1,9 @@
 # General Settings
-name: Nguyen Tan Ho 1 
+name: Nguyen Tan Ho 
 job_title: Computer Vision / Machine Learning Engineer
 email: nguyentanhoit@gmail.com
 description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
-avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
+avatar: /assets/images/avatar.jpeg
 favicon: /favicon.ico
 twitter_handler: your_handler
 analytics_code: UA-XXXXXXX-2
@@ -11,12 +11,12 @@ disqus: your_disqus_site
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: 'http://facebook.com' }
--  { name: twitter, url: 'http://twitter.com' }
+-  { name: facebook, url: 'https://www.facebook.com/tigerzingit/' }
+-  { name: twitter, url: '' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
 -  { name: linkedin, url: '' }
--  { name: skype, url: '' }
+-  { name: skype, url: 'https://www.linkedin.com/in/nguyentanho/' }
 -  { name: github, url: '' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
