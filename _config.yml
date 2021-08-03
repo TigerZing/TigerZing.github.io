@@ -3,8 +3,8 @@ name: Nguyen Tan Ho
 job_title: Computer Vision / Machine Learning Engineer
 email: nguyentanhoit@gmail.com
 description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
-avatar: /assets/images/avatar.jpeg
-favicon: /favicon.ico
+avatar: /assets/images/avatar.jpg
+favicon: /assets/images/avatar.jpg
 twitter_handler: your_handler
 analytics_code: UA-XXXXXXX-2
 disqus: your_disqus_site
@@ -15,8 +15,8 @@ social_networks:
 -  { name: twitter, url: '' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
--  { name: linkedin, url: '' }
--  { name: skype, url: 'https://www.linkedin.com/in/nguyentanho/' }
+-  { name: linkedin, url: 'https://www.linkedin.com/in/nguyentanho/' }
+-  { name: skype, url: '' }
 -  { name: github, url: '' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
