@@ -7,7 +7,7 @@ permalink: "/Publication/"
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
-        <span>
+        <div>
             <td width="30%">
                 <img width="95%"  src="/assets/images/Publication/mmsp2021.png">
             </td>
@@ -20,7 +20,7 @@ permalink: "/Publication/"
                 <br>
                 <br>
             </td>
-            </span>
+            </div>
         </tr>
         <tr>
             <td width="30%">
