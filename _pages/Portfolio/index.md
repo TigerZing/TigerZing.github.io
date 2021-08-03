@@ -26,7 +26,7 @@ permalink: "/Portfolio/"
                 <span style="font-size: 15pt;">
                     <b>EyeTeck: A system to find people in surveillance cameras </b><br>
                 </span>
-                    <b>Nguyen Tan Ho</b>, Thuy T. T. Tran
+                    <b>Nguyen Tan Ho</b>, Thuy T. T. Tran<br>
                 [<a href="https://doi.org/10.1109/TIP.2020.3046872">Paper (Open Access)</a>]
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">GitHub</a>]
@@ -65,9 +65,8 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>Semantic-driven Colorization</b><br>
+                    <b>Facial recognition system | MMLAB</b><br>
                 </span>
-                <b>Man M. Ho</b>, Lu Zhang, Alexander Raake, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
                 In Arxiv, 2020. <br>
                 [<a href="https://arxiv.org/abs/2006.07587">Paper</a>]
                 [<a href="https://github.com/minhmanho/semantic-driven_colorization">GitHub</a>]
@@ -83,7 +82,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>Japanese Coins and Banknotes Recognition for Visually Impaired People</b><br>
+                    <b>an API to get person attributes </b><br>
                 </span>
                 Huyen T. T. Bui, <b>Man M. Ho</b>, Xiao Peng, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
                 In VizWiz Workshop, 2020. <br>
