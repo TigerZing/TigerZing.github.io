@@ -39,8 +39,6 @@ permalink: "/Portfolio/"
         <tr>
             <td width="30%">
                 <img width="95%"  src="/assets/images/Porfolios/tank.gif">
-                <br>
-                <br>
             </td>
             <td>
                 <span style="font-size: 15pt;">
