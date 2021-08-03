@@ -46,7 +46,7 @@ permalink: "/Publication/"
                 <span>
                     <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey</b> (accepted)<br>
                 </span>
-                M. Nehal Hasnine 1, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
+                M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
                 <a href="https://www.ipsj.or.jp/english/index.html" target="_blank" style="text-decoration: none">IPSJ SIG Technical Report in Information Processing Society of Japan.</a> <br>
                 <br>
                 <br>
