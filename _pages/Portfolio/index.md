@@ -61,7 +61,7 @@ permalink: "/Portfolio/"
         
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/sc2020.gif">
+                <img width="95%"  src="/assets/images/Porfolios/face_sys.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
