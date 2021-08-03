@@ -12,7 +12,9 @@ permalink: "/Portfolio/"
             <td>
                 <span>
                     <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
-                    <b>Nguyen Tan Ho</b>, Huyen T. T. Bui, Thuy T. T. Tran
+                    <b>Nguyen Tan Ho</b>, Huyen T. T. Bui, Thuy T. T. Tran<br>
+                    [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
+                    [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
                 <br>
                 <br>
