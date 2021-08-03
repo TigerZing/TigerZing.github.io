@@ -12,7 +12,7 @@ permalink: "/Portfolio/"
             <td>
                 <span>
                     <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
-                    <p><img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"></p>
+                    <p><img src="https://img.shields.io/badge/Python-3.6-green" alt="Python"></p>
                     <p><img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"></p>
                     <b>Nguyen Tan Ho</b>, Huyen T. T. Bui, Thuy T. T. Tran<br>
                     [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
