@@ -6,11 +6,11 @@ permalink: "/Publication/"
 
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
-        <tr>
+        <tr><span>
             <td width="30%">
                 <img width="95%"  src="/assets/images/Publication/mmsp2021.png">
             </td>
-            <td><span>
+            <td>
                 <span>
                     <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (accepted)<br>
                 </span>
@@ -18,8 +18,8 @@ permalink: "/Publication/"
                 <a href="https://attend.ieee.org/mmsp-2021" target="_blank" style="text-decoration: none">In IEEE 23nd International Workshop on Multimedia Signal Processing (MMSP 2021).</a> <br>
                 <br>
                 <br>
-                </span>
             </td>
+            </span>
         </tr>
         <tr>
             <td width="30%">
