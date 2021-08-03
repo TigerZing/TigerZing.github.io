@@ -1,6 +1,6 @@
 ---
 ---
-
+@import "{{ site.theme }}";
 @import "vars", "reset", "mixins";
 
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
