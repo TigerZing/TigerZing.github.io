@@ -10,7 +10,7 @@ permalink: "/Publication/"
         <tr>
         <div>
             <td width="30%">
-                <img width="95%"  src="/assets/images/Publication/mmsp2021.png">
+                <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
                 <span>
@@ -26,7 +26,7 @@ permalink: "/Publication/"
         </div>
         <tr>
             <td width="30%">
-                <img width="95%"  src="/assets/images/Publication/icalt2021.png">
+                <img width="95%" class="paper-img" src="/assets/images/Publication/icalt2021.png">
             </td>
             <td>
                 <span>
@@ -41,7 +41,7 @@ permalink: "/Publication/"
 
         <tr>
             <td width="30%">
-                <img width="95%"  src="/assets/images/Publication/ipsj2021.png">
+                <img width="95%" class="paper-img" src="/assets/images/Publication/ipsj2021.png">
                 <br>
                 <br>
             </td>
@@ -58,7 +58,7 @@ permalink: "/Publication/"
         
         <tr>
             <td width="30%">
-                <img width="95%"  src="/assets/images/Publication/kes2021.png">
+                <img width="95%" class="paper-img" src="/assets/images/Publication/kes2021.png">
             </td>
             <td>
                 <span>
