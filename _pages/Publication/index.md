@@ -6,6 +6,7 @@ permalink: "/Publication/"
 
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
+        <div>
         <tr>
         <div>
             <td width="30%">
@@ -22,6 +23,7 @@ permalink: "/Publication/"
             </td>
             </div>
         </tr>
+        </div>
         <tr>
             <td width="30%">
                 <img width="95%"  src="/assets/images/Publication/icalt2021.png">
