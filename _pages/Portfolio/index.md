@@ -1,16 +1,8 @@
 ---
 layout: page
-title:  "portfolio"
-permalink: "/portfolio/"
+title:  "Portfolio"
+permalink: "/Portfolio/"
 ---
-
-<figure>
-    <img src="https://cdn.dribbble.com/users/1073937/screenshots/5036567/waterfall.png" />
-    <figcaption>Created by <a href="https://dribbble.com/HannahLizSharp" target="_blank_">Hannah Sharp</a></figcaption>
-</figure>
-
-In addition to writing posts, another thing you may want to do with your Jekyll site is create static pages. By taking advantage of the way Jekyll copies files and directories, this is easy to do. [More Information](https://jekyllrb.com/docs/pages/){:target="_blank"}
-
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
@@ -18,16 +10,9 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
                 <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
-                <span style="font-size: 15pt;">
-                    <b>Deep Photo Scan: Semi-supervised learning for dealing with the real-world degradation in smartphone photo scanning</b><br>
+                <span>
+                    <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
                 </span>
-                <b>Man M. Ho</b>, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
-                In ArXiv, 2021. <br>
-                [<a href="https://arxiv.org/abs/2102.06120">Paper</a>]
-                [<a href="https://drive.google.com/file/d/1atoOvwUAnS7qJ438w8GB-mmwg5QwwLrf/view?usp=sharing">SupDoc</a>]
-                [<a href="https://minhmanho.github.io/dpscan/">Webpage</a>]
-                [<a href="https://github.com/minhmanho/dpscan">GitHub</a>]
-                [<a href="https://youtu.be/-kC2T6vMlpQ">Demo</a>]
                 <br>
                 <br>
             </td>
