@@ -12,7 +12,6 @@ permalink: "/Portfolio/"
             <td>
                 <span>
                     <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
-                    <i><b>Nguyen Tan Ho</b>, Huyen T. T. Bui, Thuy T. T. Tran</i><br>
                     <b>Techniques </b>: Emotion detection, Face recognition, Face re-identification, Eyegaze detection  <br>
                     <b>Languages and frameworks </b>: Python, Streamlit, Sqlite3<br>
                     
@@ -31,7 +30,6 @@ permalink: "/Portfolio/"
                 <span style="font-size: 15pt;">
                     <b>EyeTeck: A system to find people in surveillance cameras </b><br>
                 </span>
-                    <i><b>Nguyen Tan Ho</b>, Thuy T. T. Tran<br></i>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 <br>
@@ -47,7 +45,6 @@ permalink: "/Portfolio/"
                 <span style="font-size: 15pt;">
                     <b>Tank game 2016: Can you win this game with our AI bots? </b><br>
                 </span>
-                 <i><b>Nguyen Tan Ho</b><br></i>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 <br>
@@ -78,8 +75,6 @@ permalink: "/Portfolio/"
                 <span style="font-size: 15pt;">
                     <b>An API to get person attributes </b><br>
                 </span>
-                <i><b>Ho Tan Nguyen</b></i>
-                <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 <br>
