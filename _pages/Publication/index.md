@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Portfolio"
-permalink: "/portfolio/"
+title:  "Publication"
+permalink: "/Publication/"
 ---
 
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
