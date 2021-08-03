@@ -65,7 +65,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>Facial recognition system | MMLAB</b><br>
+                    <b>FaceRegSys: An facial recognition system | MMLAB</b><br>
                 </span>
                 In Arxiv, 2020. <br>
                 [<a href="https://arxiv.org/abs/2006.07587">Paper</a>]
@@ -82,7 +82,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>an API to get person attributes </b><br>
+                    <b>An API to get person attributes </b><br>
                 </span>
                 Huyen T. T. Bui, <b>Man M. Ho</b>, Xiao Peng, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a><br>
                 In VizWiz Workshop, 2020. <br>
