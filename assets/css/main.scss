@@ -4,6 +4,9 @@
 @import "vars", "reset", "mixins";
 
 .paper-img{box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
+.conf{color: #0077c8}
+
+
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
 
 .user-profile { position: absolute; top: 60px; width: 100%; max-width: 300px; text-align: center; @include transition(right .3s ease-in-out);
