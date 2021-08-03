@@ -65,7 +65,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>FaceRegSys: An facial recognition system | MMLAB</b><br>
+                    <b>FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b><br>
                 </span>
                 In Arxiv, 2020. <br>
                 [<a href="https://arxiv.org/abs/2006.07587">Paper</a>]
