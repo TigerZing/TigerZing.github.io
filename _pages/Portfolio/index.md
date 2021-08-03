@@ -20,7 +20,7 @@ permalink: "/Portfolio/"
         </tr>
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/rrdncnn2.jpg">
+                <img width="95%"  src="/assets/images/Porfolios/thesis.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
