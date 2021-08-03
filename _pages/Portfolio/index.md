@@ -12,6 +12,7 @@ permalink: "/Portfolio/"
             <td>
                 <span>
                     <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
+                    <b>Nguyen Tan Ho</b>, Huyen T. T. Bui, Thuy T. T. Tran
                 </span>
                 <br>
                 <br>
@@ -23,9 +24,10 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>RR-DnCNN v2.0: Enhanced Restoration-Reconstruction Deep Neural Network for Down-Sampling Based Video Coding</b><br>
+                    <b>EyeTeck: A system to find people in surveillance cameras </b><br>
+                    <b>Nguyen Tan Ho</b>, Thuy T. T. Tran
                 </span>
-                <b>Man M. Ho</b>, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a>, Gang He<br>
+                <b>Nguyen Tan Ho</b>, <a href="https://www.zhou-lab.info/jinjia-zhou"> Jinjia Zhou</a>, Gang He<br>
                 In IEEE Transactions on Image Processing (TIP), 2021. <br>
                 [<a href="https://doi.org/10.1109/TIP.2020.3046872">Paper (Open Access)</a>]
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
