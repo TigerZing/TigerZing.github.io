@@ -4,13 +4,6 @@ title:  "Portfolio"
 permalink: "/portfolio/"
 ---
 
-<figure>
-    <img src="https://cdn.dribbble.com/users/1073937/screenshots/5036567/waterfall.png" />
-    <figcaption>Created by <a href="https://dribbble.com/HannahLizSharp" target="_blank_">Hannah Sharp</a></figcaption>
-</figure>
-
-In addition to writing posts, another thing you may want to do with your Jekyll site is create static pages. By taking advantage of the way Jekyll copies files and directories, this is easy to do. [More Information](https://jekyllrb.com/docs/pages/){:target="_blank"}
-
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
@@ -34,7 +27,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
         </tr>
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/rrdncnn2.jpg">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
@@ -53,7 +46,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
 
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/dp2020.gif">
+                <img width="95%"  src="/assets/images/dp2020.gif">
                 <br>
                 <br>
             </td>
@@ -76,7 +69,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
         
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/sc2020.gif">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
@@ -94,7 +87,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
         
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/vizwiz2020.png">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
@@ -111,7 +104,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
 
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/cvprw20-srcl.jpg">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
@@ -130,7 +123,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
 
         <tr>
             <td width="30%">
-                <img width="95%"  src="images/rrdncnn.png">
+                <img width="95%"  src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
@@ -150,7 +143,7 @@ In addition to writing posts, another thing you may want to do with your Jekyll 
         
         <tr>
             <td width="30%">
-                <img width="95%" src="images/cvmp19.jpg">
+                <img width="95%" src="/assets/images/dp2020.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
