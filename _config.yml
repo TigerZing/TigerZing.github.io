@@ -57,7 +57,7 @@ defaults:
 
 # Serving
 url: https://tigerzing.github.io
-baseurl: /tigerzing.github.io
+baseurl: /
 
 # Includes
 include: ["_pages"]
