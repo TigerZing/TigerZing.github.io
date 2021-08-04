@@ -12,8 +12,8 @@ permalink: "/Portfolio/"
             <td>
                 <span>
                     <b  style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b><br>
-                    <b>Techniques </b>: <code>Emotion detection</code>, <code>Face recognition</code>, <code>Face re-identification</code>>, <code>Eyegaze detection</code>  <br>
-                    <b>Languages and frameworks </b>: <code>Python</code>, <code>Streamlit</code>, <code>Sqlite3</code><br>
+                    <b>Techniques </b>: </span class="badge_module">Emotion detection</span>, </span class="badge_module">Face recognition</span>, </span class="badge_module">Face re-identification</span>>, </span class="badge_module">Eyegaze detection</span>  <br>
+                    <b>Languages and frameworks </b>: </span class="badge_module">Python</span>, </span class="badge_module">Streamlit</span>, </span class="badge_module">Sqlite3</span><br>
                     
                     [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                     [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
