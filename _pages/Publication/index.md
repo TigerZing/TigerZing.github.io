@@ -13,8 +13,8 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
+            <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                 <span>
-                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                     <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (accepted)<br>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
