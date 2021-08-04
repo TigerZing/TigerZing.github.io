@@ -14,6 +14,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
+                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                     <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (accepted)<br>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
@@ -32,6 +33,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
+                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                     <b  style="font-size: 15pt;">Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education</b> (accepted)<br>
                 </span>
                 Hiroshi Ueda, <b>Ho Tan Nguyen</b>, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, M. Nehal Hasnine<br>
@@ -51,6 +53,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
+                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                     <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey</b> (accepted)<br>
                 </span>
                 M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
@@ -68,6 +71,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
+                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
                     <b  style="font-size: 15pt;">Students’ emotion extraction and visualization for engagement detection in online learning</b>(accepted)<br>
                 </span>
                 M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, <b>Ho Tan Nguyen</b>, Gökhan Akçapınar, H. Ueda<br>
