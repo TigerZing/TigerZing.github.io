@@ -7,7 +7,7 @@ permalink: "/Portfolio/"
     <tbody>
         <tr>
             <td width="30%">
-                <img width="95%"  src="/assets/images/Porfolios/thesis.gif">
+                <img width="95%"  src="/assets/images/Porfolios/moemo.gif">
             </td>
             <td>
                 <span>
