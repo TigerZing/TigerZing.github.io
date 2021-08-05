@@ -34,7 +34,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time datetime="14 APR 2021" itemprop="datePublished"></time>
+                    <time itemprop="datePublished">14 APR 2021</time>
                     <br>
                     <b  style="font-size: 15pt;">Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education</b> (Accepted)<br>
                 </span>
@@ -54,7 +54,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time datetime="25 MAR 2021" itemprop="datePublished"></time>
+                    <time itemprop="datePublished">25 MAR 2021</time>
                     <br>
                     <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey</b> (Accepted)<br>
                 </span>
@@ -72,7 +72,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time datetime="28 May 2021" itemprop="datePublished"></time>
+                    <time itemprop="datePublished">28 May 2021</time>
                     <br>
                     <b  style="font-size: 15pt;">Students’ emotion extraction and visualization for engagement detection in online learning</b>(Accepted)<br>
                 </span>
