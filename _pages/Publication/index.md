@@ -13,7 +13,7 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
-            <time itemprop="datePublished">24 JUL 2021</time>
+            <time itemprop="datePublished">24 Jul 2021</time>
             <br>
                 <span>
                     <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (Accepted)<br>
@@ -34,7 +34,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time itemprop="datePublished">14 APR 2021</time>
+                    <time itemprop="datePublished">14 Apr 2021</time>
                     <br>
                     <b  style="font-size: 15pt;">Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education</b> (Accepted)<br>
                 </span>
@@ -54,7 +54,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time itemprop="datePublished">25 MAR 2021</time>
+                    <time itemprop="datePublished">25 Mar 2021</time>
                     <br>
                     <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey</b> (Accepted)<br>
                 </span>
