@@ -61,7 +61,7 @@ permalink: "/Publication/"
                 M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
                 <span class="conf">In 33rd Education and Learning Support Information System Research Presentation IPSJ 2021.</span><br>
                 [<a href="https://tigerzing.github.io/publication/cle33.html">Abstract</a>]
-                [<a href="https://www.ipsj.or.jp/english/index.html" target="_blank" >Conference</a>]
+                [<a href="https://www.ipsj.or.jp/kenkyukai/event/cle33.html" target="_blank" >Conference</a>]
                 <br>
                 <br>
             </td>
