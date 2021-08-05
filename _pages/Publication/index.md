@@ -13,10 +13,10 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
-            <time itemprop="datePublished">2016-03-20T12</time>
+            <time itemprop="datePublished">"24 JUL 2021"</time>
             <br>
                 <span>
-                    <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (Accepted)<br>
+                    <b style="font-size: 15pt;"><a href="https://tigerzing.github.io/publication/mmsp2021.html">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (Accepted)</a><br>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
                 <span class="conf">In IEEE 23nd International Workshop on Multimedia Signal Processing (IEEE MMSP 2021).</span><br> 
@@ -34,7 +34,7 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time datetime="2016-03-20T12:36:00+00:00" itemprop="datePublished"></time>
+                    <time datetime="24 JUL 2021" itemprop="datePublished"></time>
                     <b  style="font-size: 15pt;">Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education</b> (Accepted)<br>
                 </span>
                 Hiroshi Ueda, <b>Ho Tan Nguyen</b>, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, M. Nehal Hasnine<br>
