@@ -9,7 +9,7 @@ permalink: "/Publication/"
         <div>
         <tr>
         <div>
-            <td width="60%">
+            <td width="30%">
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
@@ -29,7 +29,7 @@ permalink: "/Publication/"
         </tr>
         </div>
         <tr>
-            <td width="60%">
+            <td width="30%">
                 <img width="95%" class="paper-img" src="/assets/images/Publication/icalt2021.png">
             </td>
             <td>
@@ -47,7 +47,7 @@ permalink: "/Publication/"
             </td>
         </tr>
         <tr>
-            <td width="60%">
+            <td width="30%">
                 <img width="95%" class="paper-img" src="/assets/images/Publication/ipsj2021.png">
                 <br>
                 <br>
@@ -67,7 +67,7 @@ permalink: "/Publication/"
             </td>
         </tr>
         <tr>
-            <td width="60%">
+            <td width="30%">
                 <img width="95%" class="paper-img" src="/assets/images/Publication/kes2021.png">
             </td>
             <td>

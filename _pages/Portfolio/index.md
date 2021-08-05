@@ -6,7 +6,7 @@ permalink: "/Portfolio/"
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
-            <td width="30%">
+            <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/moemo.gif">
             </td>
             <td>
@@ -23,7 +23,7 @@ permalink: "/Portfolio/"
             </td>
         </tr>
         <tr>
-            <td width="30%">
+            <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/thesis.gif">
             </td>
             <td>
@@ -38,7 +38,7 @@ permalink: "/Portfolio/"
         </tr>
 
         <tr>
-            <td width="30%">
+            <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/tank.gif">
             </td>
             <td>
@@ -53,7 +53,7 @@ permalink: "/Portfolio/"
         </tr>
         
         <tr>
-            <td width="30%">
+            <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/face_sys.gif">
             </td>
             <td>
@@ -68,7 +68,7 @@ permalink: "/Portfolio/"
         </tr>
         
         <tr>
-            <td width="30%">
+            <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/person_attributes.gif">
             </td>
             <td>
