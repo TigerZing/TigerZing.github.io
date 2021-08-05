@@ -5,7 +5,10 @@
 
 .paper-img{box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;}
 .conf{color: #458;}
-.badge{padding: 3px 6px; background: #fcfcfc; border: 1px solid #eee;}
+.badge_module{padding: 3px 6px; background: #fcfcfc; border: 1px solid #eee;}
+.title_publication{color: rgb(0, 1, 2)}&:hover { background: $primary-color; }
+
+
 
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
 
@@ -120,7 +123,7 @@
 				&:hover { color: $grey-color-light; }
 			}
 
-			a { color: $primary-color; border-bottom: 1px solid $primary-color; @include transition(border .1s ease);
+			a { color: $primary-color; border-bottom: 0px solid $primary-color; @include transition(border .1s ease);
 				&:hover { border: none; }
 			}
 

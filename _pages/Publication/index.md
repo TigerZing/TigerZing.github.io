@@ -13,10 +13,10 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
-            <time itemprop="datePublished">"24 JUL 2021"</time>
+            <time itemprop="datePublished">24 JUL 2021</time>
             <br>
                 <span>
-                    <b style="font-size: 15pt;"><a href="https://tigerzing.github.io/publication/mmsp2021.html">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</a></b> (Accepted)<br>
+                    <b style="font-size: 15pt;"><a href="https://tigerzing.github.io/publication/mmsp2021.html" class="title_publication">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</a></b> (Accepted)<br>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
                 <span class="conf">In IEEE 23nd International Workshop on Multimedia Signal Processing (IEEE MMSP 2021).</span><br> 
