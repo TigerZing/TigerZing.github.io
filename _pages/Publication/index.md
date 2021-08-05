@@ -13,7 +13,8 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
-            <time itemprop="datePublished">2016-03-20T12:36:00+00:00</time>
+            <time itemprop="datePublished">2016-03-20T12</time>
+            <br>
                 <span>
                     <b style="font-size: 15pt;">SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b> (accepted)<br>
                 </span>
