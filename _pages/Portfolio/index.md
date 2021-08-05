@@ -29,8 +29,8 @@ permalink: "/Portfolio/"
                 <img width="95%"  src="/assets/images/Porfolios/thesis.gif">
             </td>
             <td>
-                <span style="font-size: 15pt;">
-                    <b>EyeTeck: A system to find people in surveillance cameras </b>
+                <span>
+                    <b style="font-size: 15pt;">EyeTeck: A system to find people in surveillance cameras </b>
                     <br>
                     <br>
                     <b>Techniques </b>:
@@ -48,8 +48,8 @@ permalink: "/Portfolio/"
                 <img width="95%"  src="/assets/images/Porfolios/tank.gif">
             </td>
             <td>
-                <span style="font-size: 15pt;">
-                    <b>Tank game 2016: Can you win this game with our AI bots? </b>
+                <span>
+                    <b  style="font-size: 15pt;">Tank game 2016: Can you win this game with our AI bots? </b>
                     <br>
                     <br>
                     <b>Techniques </b>:
@@ -67,8 +67,8 @@ permalink: "/Portfolio/"
                 <img width="95%"  src="/assets/images/Porfolios/face_sys.gif">
             </td>
             <td>
-                <span style="font-size: 15pt;">
-                    <b>FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b>
+                <span>
+                    <b  style="font-size: 15pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b>
                 <br>
                 <br>
                 <b>Techniques </b>:
@@ -87,8 +87,8 @@ permalink: "/Portfolio/"
                 <img width="95%"  src="/assets/images/Porfolios/person_attributes.gif">
             </td>
             <td>
-                <span style="font-size: 15pt;">
-                    <b>An API to get person attributes </b>
+                <span>
+                    <b  style="font-size: 15pt;">An API to get person attributes </b>
                     <br>
                     <br>
                 <b>Techniques </b>:
