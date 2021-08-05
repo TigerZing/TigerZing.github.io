@@ -11,7 +11,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">MOEMO: Framework to analyze student's engagement level in online class</b><br>
+                    <b style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b>
+                    <br>
+                    <br>
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
@@ -28,60 +30,77 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>EyeTeck: A system to find people in surveillance cameras </b><br>
-                </span>
+                    <b>EyeTeck: A system to find people in surveillance cameras </b>
+                    <br>
+                    <br>
+                    <b>Techniques </b>:
+                    <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
+                </span>
                 <br>
                 <br>
             </td>
         </tr>
-
         <tr>
             <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/tank.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>Tank game 2016: Can you win this game with our AI bots? </b><br>
-                </span>
+                    <b>Tank game 2016: Can you win this game with our AI bots? </b>
+                    <br>
+                    <br>
+                    <b>Techniques </b>:
+                    <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
+                </span>
                 <br>
                 <br>
             </td>
         </tr>
-        
         <tr>
             <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/face_sys.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b><br>
-                </span>
+                    <b>FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b>
+                <br>
+                <br>
+                <b>Techniques </b>:
+                <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
+                <br>
                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 <br>
                 <br>
+                 </span>
             </td>
         </tr>
-        
         <tr>
             <td width="60%">
                 <img width="95%"  src="/assets/images/Porfolios/person_attributes.gif">
             </td>
             <td>
                 <span style="font-size: 15pt;">
-                    <b>An API to get person attributes </b><br>
-                </span>
+                    <b>An API to get person attributes </b>
+                    <br>
+                    <br>
+                <b>Techniques </b>:
+                <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
+                <br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
+                </span>
                 <br>
                 <br>
             </td>
         </tr>
-        
-
     </tbody>
     </table>
