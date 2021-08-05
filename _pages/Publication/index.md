@@ -56,10 +56,10 @@ permalink: "/Publication/"
                 <span>
                     <time itemprop="datePublished">25 Mar 2021</time>
                     <br>
-                    <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey IPSJ 2021.</b><br>
+                    <b  style="font-size: 15pt;">Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey (IPSJ 2021).</b><br>
                 </span>
                 M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
-                <span class="conf">Presented in 33rd Education and Learning Support Information System Research Presentation.</span><br>
+                <span class="conf">Presented in 33rd Education and Learning Support Information System Research Presentation - Information Processing Society of Japan.</span><br>
                 [<a href="https://tigerzing.github.io/publication/cle33.html">Abstract</a>]
                 [<a href="https://www.ipsj.or.jp/kenkyukai/event/cle33.html" target="_blank" >Conference</a>]
                 <br>
