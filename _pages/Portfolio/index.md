@@ -11,7 +11,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class</b>
+                    <b style="font-size: 15pt;">MOEMO: A Framework to analyze student's engagement level in online class.</b>
                     <br>
                     <br>
                     <b>Techniques </b>:
@@ -30,12 +30,12 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">EyeTeck: A system to find people in surveillance cameras </b>
+                    <b style="font-size: 15pt;">EyeTeck: A system to locate people in surveillance cameras network </b>
                     <br>
                     <br>
                     <b>Techniques </b>:
-                    <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
+                    <span class="badge_module">Person's attributes detection </span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face clusterring </span>, <span class="badge_module">Pedestrian detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Django</span>.<br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
