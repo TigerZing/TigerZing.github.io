@@ -15,8 +15,8 @@ permalink: "/Portfolio/"
                     <br>
                     <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
                     <b>Techniques </b>:
-                    <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>, <span class="badge_module">OpenCV</span>,<span class="badge_module">Tensorflow</span><br>
+                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span> <span class="badge_module">OpenCV</span><span class="badge_module">Tensorflow</span><br>
                     [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                     [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
@@ -34,8 +34,8 @@ permalink: "/Portfolio/"
                     <br>
                     <i class="conf">A Bachelor thesis of University of Information Technology, Vietnam</i><br>  
                     <b>Techniques </b>:
-                    <span class="badge_module">Person's attributes detection </span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face clusterring </span>, <span class="badge_module">Pedestrian detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Django</span>, <span class="badge_module">OpenCV</span>, <span class="badge_module">Yolo</span>, <span class="badge_module">Tensorflow</span><br>
+                    <span class="badge_module">Person's attributes detection </span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face clusterring </span> <span class="badge_module">Pedestrian detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span> <span class="badge_module">OpenCV</span> <span class="badge_module">Yolo</span> <span class="badge_module">Tensorflow</span><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
@@ -53,8 +53,8 @@ permalink: "/Portfolio/"
                     <br>
                     <i class="conf">A Coursework of University of Information Technology, Vietnam</i><br>
                     <b>Techniques </b>:
-                    <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
+                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
@@ -72,8 +72,8 @@ permalink: "/Portfolio/"
                 <br>
                 <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
-                <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
-                <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
+                <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span>
                 <br>
                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
@@ -92,8 +92,8 @@ permalink: "/Portfolio/"
                     <br>
                     <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
-                <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
-                <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
+                <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span>
                 <br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
