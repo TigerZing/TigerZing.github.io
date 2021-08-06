@@ -13,7 +13,7 @@ permalink: "/Portfolio/"
                 <span>
                     <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
                     <br>
-                    <i>A project in Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
+                    <i class="conf">A project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>, <span class="badge_module">OpenCV</span>,<span class="badge_module">Tensorflow</span><br>
@@ -32,7 +32,7 @@ permalink: "/Portfolio/"
                 <span>
                     <b style="font-size: 15pt;">EyeTeck: A system to locate people in surveillance cameras network </b>
                     <br>
-                    <i>A bachelor thesis in University of Information Technology, Vietnam</i><br>  
+                    <i class="conf">A bachelor thesis of University of Information Technology, Vietnam</i><br>  
                     <b>Techniques </b>:
                     <span class="badge_module">Person's attributes detection </span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face clusterring </span>, <span class="badge_module">Pedestrian detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Django</span>, <span class="badge_module">OpenCV</span>, <span class="badge_module">Yolo</span>, <span class="badge_module">Tensorflow</span><br>
@@ -51,7 +51,7 @@ permalink: "/Portfolio/"
                 <span>
                     <b  style="font-size: 15pt;">Tank game 2016: Can you win this game with our AI bots? </b>
                     <br>
-                    <i>An assigment in University of Information Technology, Vietnam</i><br>
+                    <i class="conf">A Coursework of University of Information Technology, Vietnam</i><br>
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span><br>
@@ -70,7 +70,7 @@ permalink: "/Portfolio/"
                 <span>
                     <b  style="font-size: 15pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b>
                 <br>
-                <i>A project in Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
+                <i class="conf">A project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
                 <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
@@ -90,7 +90,7 @@ permalink: "/Portfolio/"
                 <span>
                     <b  style="font-size: 15pt;">An API to get person attributes </b>
                     <br>
-                    <i>A project in Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
+                    <i class="conf">A project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
                 <span class="badge_module">Emotion detection</span>, <span class="badge_module">Face recognition</span>, <span class="badge_module">Face re-identification</span>, <span class="badge_module">Eyegaze detection</span> <br>
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span>, <span class="badge_module">Streamlit</span>, <span class="badge_module">Sqlite3</span>
