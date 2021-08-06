@@ -49,12 +49,12 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b  style="font-size: 15pt;">Tank game 2016: Can you win this game with our AI bots? </b>
+                    <b  style="font-size: 15pt;">Tank game 2016: Our AI bots will chase and kill you </b>
                     <br>
                     <i class="conf">A Coursework of University of Information Technology, Vietnam</i><br>
                     <b>Techniques </b>:
-                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span><br>
+                    <span class="badge_module">A* algorithm</span>. <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Unity</span> <span class="badge_module">C#</span><br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
@@ -72,8 +72,8 @@ permalink: "/Portfolio/"
                 <br>
                 <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
-                <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
-                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span>
+                <span class="badge_module">Face recognition</span> <span class="badge_module">Face detection</span> <br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span>
                 <br>
                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
@@ -88,12 +88,12 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b  style="font-size: 15pt;">An API to get person attributes </b>
+                    <b  style="font-size: 15pt;">An Application to detect person attributes </b>
                     <br>
                     <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
                 <b>Techniques </b>:
-                <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
-                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span>
+                <span class="badge_module">Person attributes detection</span> <span class="badge_module">Pedestrian detection</span><br>
+                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Yolo</span> <span class="badge_module">VGG16</span>
                 <br>
                 [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
