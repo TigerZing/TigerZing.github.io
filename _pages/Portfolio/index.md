@@ -36,7 +36,6 @@ permalink: "/Portfolio/"
                     <b>Techniques </b>:
                     <span class="badge_module">Person's attributes detection </span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face clusterring </span> <span class="badge_module">Pedestrian detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span> <span class="badge_module">OpenCV</span> <span class="badge_module">Yolo</span> <span class="badge_module">Tensorflow</span><br>
-                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
                 <br>
@@ -55,7 +54,6 @@ permalink: "/Portfolio/"
                     <b>Techniques </b>:
                     <span class="badge_module">A* algorithm</span>. <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Unity</span> <span class="badge_module">C#</span><br>
-                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
                 <br>
@@ -75,7 +73,6 @@ permalink: "/Portfolio/"
                 <span class="badge_module">Face recognition</span> <span class="badge_module">Face detection</span> <br>
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span>
                 <br>
-               [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 <br>
                 <br>
@@ -95,7 +92,6 @@ permalink: "/Portfolio/"
                 <span class="badge_module">Person attributes detection</span> <span class="badge_module">Pedestrian detection</span><br>
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Yolo</span> <span class="badge_module">VGG16</span>
                 <br>
-                [<a href="https://minhmanho.github.io/rrdncnn/">Webpage</a>]
                 [<a href="https://github.com/minhmanho/rrdncnn">Demo</a>]
                 </span>
                 <br>
