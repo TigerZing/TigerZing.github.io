@@ -123,9 +123,11 @@ permalink: "/Portfolio/"
                 <div class="row">
             <div class="column">
                 <div class="card">
-                <h3>Card 1</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
                 </div>
             </div>
             <div class="column">
