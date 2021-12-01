@@ -120,7 +120,8 @@ permalink: "/Portfolio/"
                 </div>
             </div>
         </div>
-                <div class="row">
+        <br>
+        <div class="row">
             <div class="column">
                 <div class="card">
                     <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
