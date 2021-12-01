@@ -13,10 +13,6 @@
     grid-gap: 16px;
   }
 
-  aside {
-    align-self: start;
-  }
-}
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
 
 .user-profile { position: absolute; top: 60px; width: 100%; max-width: 300px; text-align: center; @include transition(right .3s ease-in-out);
