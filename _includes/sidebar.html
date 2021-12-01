@@ -10,6 +10,7 @@
         <a class="avatar" href="{{ site.baseurl | prepend: site.url }}"><img alt="Avatar" src="{% if site.avatar %}{{site.avatar}}{% else %}{{ site.email | to_gravatar:140 }}{% endif %}" /></a>
         <div class="my-info">
             <strong class="my-name">{{ site.name }}</strong>
+            <br>
             <span class="my-job-title">{{ site.job_title }}</span>
         </div>
     </div>
