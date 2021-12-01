@@ -208,7 +208,7 @@
   /* Float four columns side by side */
   .column {
 	float: left;
-	width: 25%;
+	width: 33%;
 	padding: 0 10px;
   }
   
@@ -231,7 +231,7 @@
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 300px) {
 	.column {
 	  width: 100%;
 	  display: block;
