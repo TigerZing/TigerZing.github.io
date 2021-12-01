@@ -101,5 +101,19 @@ permalink: "/Portfolio/"
             <aside>Sidebar</aside>
             <main>Main</main>
         </div>
+        <div class="row">
+        <div class="column">
+            <div class="card">..</div>
+        </div>
+        <div class="column">
+            <div class="card">..</div>
+        </div>
+        <div class="column">
+            <div class="card">..</div>
+        </div>
+        <div class="column">
+            <div class="card">..</div>
+        </div>
+        </div>
     </tbody>
     </table>
