@@ -97,5 +97,9 @@ permalink: "/Portfolio/"
                 <br>
             </td>
         </tr>
+        <div class="wrapper1">
+            <aside>Sidebar</aside>
+            <main>Main</main>
+        </div>
     </tbody>
     </table>
