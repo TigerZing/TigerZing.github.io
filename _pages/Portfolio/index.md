@@ -51,15 +51,16 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b  style="font-size: 15pt;">Tank game 2016: Our AI bots will chase and kill you </b>
+                    <a href="#"><b style="font-size: 13pt;">Tank game 2016: Tank game with AI enemies</b></a>
                     <br>
                     <i class="conf">A Coursework of University of Information Technology, Vietnam</i><br>
                     <b>Techniques </b>:
+                    <!--
                     <span class="badge_module">A* algorithm</span>. <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Unity</span> <span class="badge_module">C#</span><br>
                 [<a href="https://www.youtube.com/watch?v=ZZjeq8i8ObY" target="_blank" >Demo</a>]
                 </span>
-                <br>
+                --->
                 <br>
             </td>
         </tr>
