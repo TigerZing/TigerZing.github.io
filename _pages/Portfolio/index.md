@@ -12,7 +12,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
+                    <b style="font-size: 15pt;">MOEMO: Student Engagement Detection in online class</b>
                     <br>
                     <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
                     <b>Techniques </b>:
