@@ -6,6 +6,7 @@ permalink: "/Portfolio/"
 <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
+        <div class="card">
             <td width="40%" style="border: solid; border-color: #099;">
                 <img width="95%"  src="/assets/images/Porfolios/moemo.gif">
             </td>
@@ -22,6 +23,7 @@ permalink: "/Portfolio/"
                 <br>
                 <br>
             </td>
+        <div>
         </tr>
         <tr>
             <td width="40%" style="border: solid; border-color: #099;">
