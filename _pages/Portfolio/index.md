@@ -108,7 +108,7 @@ permalink: "/Portfolio/"
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <img src="/assets/images/Porfolios/thesis.gif" alt="Avatar" style="width:100%">
                     <div class="container">
                         <h6><b>EyeTeck: People Search in surveillance cameras network</b></h6>
                     </div>
@@ -127,7 +127,7 @@ permalink: "/Portfolio/"
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <img src="/assets/images/Porfolios/face_sys.gif" alt="Avatar" style="width:100%">
                     <div class="container">
                         <h4><b>John Doe</b></h4>
                         <p>Architect & Engineer</p>
@@ -136,16 +136,7 @@ permalink: "/Portfolio/"
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
-                    <div class="container">
-                        <h4><b>John Doe</b></h4>
-                        <p>Architect & Engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <img src="/assets/images/Porfolios/person_attributes.gif" alt="Avatar" style="width:100%">
                     <div class="container">
                         <h4><b>John Doe</b></h4>
                         <p>Architect & Engineer</p>
