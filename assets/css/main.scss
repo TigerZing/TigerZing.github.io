@@ -233,6 +233,11 @@
   .card img{
 	  border-radius: 4%;
   }
+
+  .container h6{
+	font-size: 14px;
+	margin-top: 10px;
+  }
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 300px) {
 	.column {
