@@ -11,10 +11,13 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b href="#">MOEMO: Student Engagement Detection in online class</b>
+                    <b style="font-size: 15pt;">MOEMO: Student Engagement Detection in online class</b>
                     <br>
-                    <i class="conf" style="font-size: smaller;">Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
-                    <p>This paper proposes a speedup convolutional neural network (CNN)-based deblurring framework (SpeedDeblur) for reconstructed blurry videos. First, we extract the coding information and the reconstructed video from the compressed data. Second, a CNN-based algorithm is used for deblurring the first reconstructed frame. Pixels of the deblurred frames are transferred to the subsequent frames guided by HEVC decoded data.The transferring process is simple and faster than applying a deblurring algorithm on all frames. However, passing pixels throughout a long video propagates accumulated errors and reduces the deblurring performance.</p>
+                    <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
+                    <b>Techniques </b>:
+                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span> <span class="badge_module">OpenCV</span><span class="badge_module">Tensorflow</span><br>
+                    [<a href="https://www.youtube.com/watch?v=zbSBDbr08Uc" target="_blank" >Demo</a>]
                 </span>
                 <br>
                 <br>
