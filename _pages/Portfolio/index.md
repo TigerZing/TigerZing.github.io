@@ -14,6 +14,7 @@ permalink: "/Portfolio/"
                     <a href="#"><b style="font-size: 13pt;">MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
                     <span class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</span><br>
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
