@@ -13,7 +13,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
-                    <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
+                    <span class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</span><br>
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
@@ -33,7 +33,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
-                    <i class="conf">A Bachelor thesis in University of Information Technology, Vietnam</i><br>  
+                    <span class="conf">A Bachelor thesis in University of Information Technology, Vietnam</span><br>  
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">Person's attributes detection </span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face clusterring </span> <span class="badge_module">Pedestrian detection</span> <br>
@@ -53,7 +53,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">Tank game 2016: Tank game with AI enemies</b></a>
                     <br>
-                    <i class="conf">A Coursework in University of Information Technology, Vietnam</i><br>
+                    <span class="conf">A Coursework in University of Information Technology, Vietnam</span><br>
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">A* algorithm</span>. <br>
@@ -72,7 +72,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b></a>
                     <br>
-                    <i class="conf">A Project of Multimedia Processing Lab in University of Information Technology, Vietnam</i><br>
+                    <span class="conf">A Project of Multimedia Processing Lab in University of Information Technology, Vietnam</span><br>
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">Face recognition</span> <span class="badge_module">Face detection</span> <br>
@@ -93,7 +93,7 @@ permalink: "/Portfolio/"
                 <span>
                 <a href="#"><b style="font-size: 13pt;">Person Attributes Detection</b></a>
                 <br>
-                <i class="conf">A Project of Multimedia Processing Lab in University of Information Technology, Vietnam</i><br>
+                <span class="conf">A Project of Multimedia Processing Lab in University of Information Technology, Vietnam</span><br>
                 <!--
                 <b>Techniques </b>:
                 <span class="badge_module">Person attributes detection</span> <span class="badge_module">Pedestrian detection</span><br>
