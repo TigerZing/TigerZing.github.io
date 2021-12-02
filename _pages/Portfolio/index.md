@@ -112,13 +112,6 @@ permalink: "/Portfolio/"
                 <p>Some text</p>
                 </div>
             </div>
-            <div class="column">
-                <div class="card">
-                <h3>Card 3</h3>
-                <p>Some text</p>
-                <p>Some text</p>
-                </div>
-            </div>
         </div>
         <br>
         <div class="row">
@@ -133,16 +126,11 @@ permalink: "/Portfolio/"
             </div>
             <div class="column">
                 <div class="card">
-                <h3>Card 2</h3>
-                <p>Some text</p>
-                <p>Some text</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                <h3>Card 3</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
                 </div>
             </div>
         </div>
