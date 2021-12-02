@@ -31,13 +31,15 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">EyeTeck: A system to locate people in surveillance cameras network </b>
+                    <a href="#"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
                     <i class="conf">A Bachelor thesis of University of Information Technology, Vietnam</i><br>  
                     <b>Techniques </b>:
+                    <!--
                     <span class="badge_module">Person's attributes detection </span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face clusterring </span> <span class="badge_module">Pedestrian detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span> <span class="badge_module">OpenCV</span> <span class="badge_module">Yolo</span> <span class="badge_module">Tensorflow</span><br>
                 [<a href="https://www.youtube.com/watch?v=Ko8M0Uao6FE" target="_blank" >Demo</a>]
+                    -->
                 </span>
                 <br>
                 <br>
