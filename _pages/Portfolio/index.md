@@ -15,8 +15,8 @@ permalink: "/Portfolio/"
                     <br>
                     <i class="conf" style="font-size: smaller;">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
                     <b>Techniques </b>:
-                    Emotion detection, Face recognition, Face re-identification, Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>Python</span>
+                    <span style="font-size: smaller;">Emotion detection, Face recognition, Face re-identification, Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b><span>Python</span>
                     [<a href="https://www.youtube.com/watch?v=zbSBDbr08Uc" target="_blank" >Demo</a>]
                 </span>
                 <br>
