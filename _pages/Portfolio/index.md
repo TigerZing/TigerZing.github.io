@@ -100,16 +100,20 @@ permalink: "/Portfolio/"
         <div class="row">
             <div class="column">
                 <div class="card">
-                <h3>Card 1</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
+                        <p>Architect & Engineer</p>
+                    </div>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                <h3>Card 2</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
+                        <p>Architect & Engineer</p>
+                    </div>
                 </div>
             </div>
         </div>
