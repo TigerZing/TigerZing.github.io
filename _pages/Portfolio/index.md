@@ -13,7 +13,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
-                    <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
+                    <i class="conf">A Project of <b>Research Center for Computing and Multimedia Studies</b>, Hosei University, Japan</i><br>
                     <!--
                     <b>Techniques </b>:
                     <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
@@ -33,9 +33,9 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
-                    <i class="conf">A Bachelor thesis of University of Information Technology, Vietnam</i><br>  
-                    <b>Techniques </b>:
+                    <i class="conf">A Bachelor thesis of <b>University of Information Technology</b>, Vietnam</i><br>  
                     <!--
+                    <b>Techniques </b>:
                     <span class="badge_module">Person's attributes detection </span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face clusterring </span> <span class="badge_module">Pedestrian detection</span> <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span> <span class="badge_module">OpenCV</span> <span class="badge_module">Yolo</span> <span class="badge_module">Tensorflow</span><br>
                 [<a href="https://www.youtube.com/watch?v=Ko8M0Uao6FE" target="_blank" >Demo</a>]
@@ -53,9 +53,9 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="#"><b style="font-size: 13pt;">Tank game 2016: Tank game with AI enemies</b></a>
                     <br>
-                    <i class="conf">A Coursework of University of Information Technology, Vietnam</i><br>
-                    <b>Techniques </b>:
+                    <i class="conf">A Coursework in <b>University of Information Technology</b>, Vietnam</i><br>
                     <!--
+                    <b>Techniques </b>:
                     <span class="badge_module">A* algorithm</span>. <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Unity</span> <span class="badge_module">C#</span><br>
                 [<a href="https://www.youtube.com/watch?v=ZZjeq8i8ObY" target="_blank" >Demo</a>]
@@ -70,17 +70,19 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b  style="font-size: 15pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b>
-                <br>
-                <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
-                <b>Techniques </b>:
-                <span class="badge_module">Face recognition</span> <span class="badge_module">Face detection</span> <br>
-                <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span>
-                <br>
-                [<a href="https://www.youtube.com/watch?v=fQNkQYW5Rbk" target="_blank" >Demo</a>]
-                <br>
-                <br>
-                 </span>
+                    <a href="#"><b style="font-size: 13pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b></a>
+                    <br>
+                    <i class="conf">A Project of <b>Multimedia Processing Lab</b> in <b>the University of Information Technology<b>, Vietnam</i><br>
+                    <!--
+                    <b>Techniques </b>:
+                    <span class="badge_module">Face recognition</span> <span class="badge_module">Face detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Django</span>
+                    <br>
+                    [<a href="https://www.youtube.com/watch?v=fQNkQYW5Rbk" target="_blank" >Demo</a>]
+                    <br>
+                    <br>
+                    -->
+                </span>
             </td>
         </tr>
         <tr>
@@ -89,15 +91,17 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b  style="font-size: 15pt;">An Application to detect person attributes </b>
-                    <br>
-                    <i class="conf">A Project of Multimedia Processing Lab at the University of Information Technology, Vietnam</i><br>
+                <a href="#"><b style="font-size: 13pt;">Person Attributes Detection</b></a>
+                <br>
+                <i class="conf">A Project of  <b> Multimedia Processing Lab </b> in <b>University of Information Technology</b>, Vietnam</i><br>
+                <!--
                 <b>Techniques </b>:
                 <span class="badge_module">Person attributes detection</span> <span class="badge_module">Pedestrian detection</span><br>
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Yolo</span> <span class="badge_module">VGG16</span>
                 <br>
                 [<a href="https://www.youtube.com/watch?v=ObRd2kxc-PQ" target="_blank" >Demo</a>]
                 </span>
+                -->
                 <br>
                 <br>
             </td>
