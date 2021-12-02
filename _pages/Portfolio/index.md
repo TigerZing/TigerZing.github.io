@@ -11,12 +11,12 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <b style="font-size: 15pt;">MOEMO: Student Engagement Detection in online class</b>
+                    <b href="#">MOEMO: Student Engagement Detection in online class</b>
                     <br>
                     <i class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</i><br>
                     <b>Techniques </b>:
-                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
-                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span> <span class="badge_module">OpenCV</span><span class="badge_module">Tensorflow</span><br>
+                    Emotion detection, Face recognition, Face re-identification, Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>Python</span>
                     [<a href="https://www.youtube.com/watch?v=zbSBDbr08Uc" target="_blank" >Demo</a>]
                 </span>
                 <br>
