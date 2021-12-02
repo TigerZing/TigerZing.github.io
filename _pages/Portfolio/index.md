@@ -59,8 +59,8 @@ permalink: "/Portfolio/"
                     <span class="badge_module">A* algorithm</span>. <br>
                     <b>Languages and frameworks </b>: <span class="badge_module">Unity</span> <span class="badge_module">C#</span><br>
                 [<a href="https://www.youtube.com/watch?v=ZZjeq8i8ObY" target="_blank" >Demo</a>]
-                </span>
                 --->
+                </span>
                 <br>
             </td>
         </tr>
@@ -100,9 +100,10 @@ permalink: "/Portfolio/"
                 <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Yolo</span> <span class="badge_module">VGG16</span>
                 <br>
                 [<a href="https://www.youtube.com/watch?v=ObRd2kxc-PQ" target="_blank" >Demo</a>]
+                 -->
                 </span>
                 <br>
-                -->
+               
             </td>
         </tr>
     </tbody>
