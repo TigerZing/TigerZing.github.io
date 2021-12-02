@@ -116,9 +116,9 @@
 			h5 { font-size: 18px; }
 			h6 { font-size: 16px; }
 
-			.heading-marker { position: absolute; left: 15px; top: 50%; border: none; font-weight: 400; color: darken($grey-color-lightest, 8%); font-size: 24px; @include transition(color .1s linear); @include translate(0, -50%);
-				&:hover { color: $grey-color-light; }
-			}
+			//.heading-marker { position: absolute; left: 15px; top: 50%; border: none; font-weight: 400; color: darken($grey-color-lightest, 8%); font-size: 24px; @include transition(color .1s linear); @include translate(0, -50%);
+			//	&:hover { color: $grey-color-light; }
+			//}
 
 			a { color: $primary-color; border-bottom: 0px solid $primary-color; @include transition(border .1s ease);
 				&:hover { border: none; }
