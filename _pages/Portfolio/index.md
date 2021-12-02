@@ -100,10 +100,9 @@ permalink: "/Portfolio/"
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <img src="/assets/images/Porfolios/moemo.gif" alt="Avatar" style="width:100%">
                     <div class="container">
-                        <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
-                        <p>Architect & Engineer</p>
+                        <h6><b>MOEMO: A framework to analyze engagement level of students in online class.</b></h6>
                     </div>
                 </div>
             </div>
@@ -111,8 +110,7 @@ permalink: "/Portfolio/"
                 <div class="card">
                     <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
                     <div class="container">
-                        <b style="font-size: 15pt;">MOEMO: A framework to analyze engagement level of students in online class.</b>
-                        <p>Architect & Engineer</p>
+                        <h6><b>MOEMO: A framework to analyze engagement level of students in online class.</b></h6>
                     </div>
                 </div>
             </div>
