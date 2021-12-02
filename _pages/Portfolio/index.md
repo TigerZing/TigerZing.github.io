@@ -135,6 +135,15 @@ permalink: "/Portfolio/"
                     </div>
                 </div>
             </div>
+            <div class="column">
+                <div class="card">
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </tbody>
     </table>
