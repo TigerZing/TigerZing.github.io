@@ -102,7 +102,15 @@ permalink: "/Portfolio/"
                 <div class="card">
                     <img src="/assets/images/Porfolios/moemo.gif" alt="Avatar" style="width:100%">
                     <div class="container">
-                        <h6><b>MOEMO: A framework to analyze engagement level of students in online class.</b></h6>
+                        <h6><b>MOEMO: Student Engagement Detection In Online Class</b></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="/assets/images/Porfolios/tank.gif" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h6><b>EyeTeck: People Search in surveillance cameras network</b></h6>
                     </div>
                 </div>
             </div>
