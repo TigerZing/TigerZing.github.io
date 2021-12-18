@@ -13,7 +13,7 @@ permalink: "/Portfolio/"
                 <span>
                     <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;">MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
-                    <span class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</span><br>
+                    <a href="https://www.hosei.ac.jp/media/"><span class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                     <!--
                     <b>Techniques </b>:
@@ -32,9 +32,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="#"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
+                    <a href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
-                    <span class="conf">A Bachelor thesis in University of Information Technology, Vietnam</span><br>  
+                    <a href="http://mmlab.uit.edu.vn/"><span class="conf">A Bachelor thesis in University of Information Technology, Vietnam</span></a><br> 
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
