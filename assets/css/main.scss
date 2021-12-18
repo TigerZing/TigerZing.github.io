@@ -121,7 +121,7 @@
 			//}
 
 			a { color: $primary-color; border-bottom: 0px solid $primary-color; @include transition(border .1s ease);
-				&:hover { border: block; }
+				&:hover { border: none; }
 			}
 
 			ul, ol { margin: 15px 0;
