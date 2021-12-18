@@ -28,7 +28,7 @@ permalink: "/Portfolio/"
         </tr>
             <tr>
             <td width="40%" style="">
-                <img width="95%"  src="/assets/images/Porfolios/moemo.gif">
+                <img width="95%"  src="/assets/images/Porfolios/speedDeblur.gif">
             </td>
             <td>
                 <span>
