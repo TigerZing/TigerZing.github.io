@@ -120,9 +120,9 @@
 			//	&:hover { color: $grey-color-light; }
 			//}
 
-			//a { color: $primary-color; border-bottom: 0px solid $primary-color; @include transition(border .1s ease);
-			//	&:hover { border: none; }
-			//}
+			a { color: $primary-color; border-bottom: 0px solid $primary-color; @include transition(border .1s ease);
+				&:hover { border: block; }
+			}
 
 			ul, ol { margin: 15px 0;
 				ul, ol { padding: 0 0 0 20px; }
