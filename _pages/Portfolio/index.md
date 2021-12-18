@@ -11,9 +11,30 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;">MOEMO: Student Engagement Detection in online class</b></a>
+                    <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"> <span style="color:red">PROJECT</span> MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
-                    <a href="https://www.hosei.ac.jp/media/"><span class="conf">A Project of Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
+                    <a href="https://www.hosei.ac.jp/media/"><span class="conf">Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
+                    <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                    <!--
+                    <b>Techniques </b>:
+                    <span class="badge_module">Emotion detection</span> <span class="badge_module">Face recognition</span> <span class="badge_module">Face re-identification</span> <span class="badge_module">Eyegaze detection</span> <br>
+                    <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span> <span class="badge_module">OpenCV</span><span class="badge_module">Tensorflow</span><br>
+                    [<a href="https://www.youtube.com/watch?v=zbSBDbr08Uc" target="_blank" >Demo</a>]
+                    -->
+                </span>
+                <br>
+                <br>
+            </td>
+        </tr>
+            <tr>
+            <td width="40%" style="">
+                <img width="95%"  src="/assets/images/Porfolios/moemo.gif">
+            </td>
+            <td>
+                <span>
+                    <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"><span style="color:red">MASTER THESIS</span> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
+                    <br>
+                    <a href="https://www.zhou-lab.info/"><span class="conf">Intelligent Media Processing Lab, Hosei University, Japan</span></a><br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                     <!--
                     <b>Techniques </b>:
