@@ -32,7 +32,7 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"><span style="color:#a61717">MASTER THESIS</span><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
+                    <a href="https://tigerzing.github.io/portfolio/speedDeblur.html"><b style="font-size: 13pt;"><span style="color:#a61717">MASTER THESIS</span><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
                     <br>
                     <a href="https://www.zhou-lab.info/"><span class="conf">Intelligent Media Processing Lab, Hosei University, Japan</span></a><br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
