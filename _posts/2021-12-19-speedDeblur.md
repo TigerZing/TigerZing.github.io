@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-12-19 12:36
-title: "[IEEE MMSP2021] A Framework to Accelerate CNN-based Deblurring for HEVC reconstructed Video "
+title: "[Master thesis] A Framework to Accelerate CNN-based Deblurring for HEVC reconstructed Video "
 description: SpeedDeblur.
 comments: false
 category: 
