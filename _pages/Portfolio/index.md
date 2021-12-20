@@ -53,9 +53,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;">EyeTeck: People Search in surveillance cameras network</b></a>
+                    <a href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;"><span style="color:#a61717">BACHELOR THESIS</span><br>EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
-                    <a href="http://mmlab.uit.edu.vn/"><span class="conf">A Bachelor thesis in University of Information Technology, Vietnam</span></a><br> 
+                    <a href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
@@ -74,9 +74,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="#"><b style="font-size: 13pt;">Tank game 2016: Tank game with AI enemies</b></a>
+                    <a href="#"><b style="font-size: 13pt;"><span style="color:#a61717">ASSIGNMENT</span><br>Tank game 2016: Tank game with AI enemies</b></a>
                     <br>
-                    <span class="conf">A Coursework in University of Information Technology, Vietnam</span><br>
+                    <span class="conf">University of Information Technology, Vietnam</span><br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
@@ -94,9 +94,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="#"><b style="font-size: 13pt;">FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b></a>
+                    <a href="#"><b style="font-size: 13pt;"><span style="color:#a61717">PROJECT</span><br>FaceRegSys: Real Time Access Control Based on Face Recognition | MMLAB</b></a>
                     <br>
-                    <span class="conf">A Project of Multimedia Processing Lab in University of Information Technology, Vietnam</span><br>
+                    <a href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
