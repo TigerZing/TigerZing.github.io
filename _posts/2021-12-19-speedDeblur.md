@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-12-19 12:36
-title: "[Master thesis] A Framework to Accelerate CNN-based Deblurring for HEVC reconstructed Video "
+title: "[Master thesis] SpeedDeblur - A Framework to Accelerate CNN-based Deblurring for HEVC reconstructed Video "
 description: SpeedDeblur.
 comments: false
 category: 
@@ -21,21 +21,15 @@ This paper proposes a speedup convolutional neural network (CNN)-based deblurrin
 <p style="color:black">
 <b>Techniques </b>: 
 <br>
-Emotion Detection,
-Face Recognition,
-Face Re-identification,
-Eyegaze Tracking,
+Video Compression
+Video Deblurring,
+Convolutional Neural network,
+Frame Interpolation,
 <br>
 <b>Languages and frameworks </b>:
 <br> 
 Python,
-Flask,
-Sqlite3,
-OpenCV,
-Tensorflow,
-HTML/CSS,
-Javascript/AJAX,
-Plotly
+MATLAB,
 </p>
 <b style="color:black"> <i class="fa fa-file-video-o"></i>  DEMO VIDEO </b> 
 <iframe src="https://www.youtube.com/watch?v=ordc2U9Qoxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
