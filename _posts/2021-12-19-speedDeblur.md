@@ -23,8 +23,8 @@ This paper proposes a speedup convolutional neural network (CNN)-based deblurrin
 <br>
 Video Compression
 Video Deblurring,
-Convolutional Neural network,
 Frame Interpolation,
+Convolutional Neural network
 <br>
 <b>Languages and frameworks </b>:
 <br> 
@@ -40,73 +40,85 @@ MATLAB,
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
-    <div class="numbertext">1 / 7</div>
-      <img src="/assets/images/moemo_imgs/dashboard.png" style="width:100%">
+    <div class="numbertext">1 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0001.jpg" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">2 / 7</div>
-      <img src="/assets/images/moemo_imgs/overview_visualization.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 7</div>
-      <img src="/assets/images/moemo_imgs/student_visualization_1.png" style="width:100%">
+    <div class="numbertext">2 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0002.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 7</div>
-      <img src="/assets/images/moemo_imgs/student_visualization_2.png" style="width:100%">
+    <div class="numbertext">3 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0003.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 7</div>
-      <img src="/assets/images/moemo_imgs/video_demos_1.png" style="width:100%">
+    <div class="numbertext">4 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0004.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 7</div>
-      <img src="/assets/images/moemo_imgs/video_demos_2.png" style="width:100%">
+    <div class="numbertext">5 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0005.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0006.jpg" style="width:100%">
   </div>
     <div class="mySlides">
-    <div class="numbertext">7 / 7</div>
-      <img src="/assets/images/moemo_imgs/video_demos_3.png" style="width:100%">
+    <div class="numbertext">7 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0007.jpg" style="width:100%">
   </div>
+      <div class="mySlides">
+    <div class="numbertext">8 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0008.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">9 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0009.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">10 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0010.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">11 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0011.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">12 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0012.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">13 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0013.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">14 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0014.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">15 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0015.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">16 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0016.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">17 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0017.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">18 / 18</div>
+      <img src="/assets/images/SpeedDeblur_presentation_imgs/0018.jpg" style="width:100%">
+  </div>
+
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/dashboard.png" style="width:100%" 
-      onclick="currentSlide(1)" alt="MOEMO Dashboard - Process video in real-time and visualize the analytic results for lecturers">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/overview_visualization.png" style="width:100%" onclick="currentSlide(2)" alt="Summary Analytic Visualization - Generate analysis report after processing video">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/student_visualization_1.png" style="width:100%" onclick="currentSlide(3)" alt="Student Analytic Visualization - Analyze student engagement, concentration and emotion in time-series">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/student_visualization_2.png" style="width:100%" onclick="currentSlide(4)" alt="Student Analytic Visualization - Analyze student engagement, concentration and emotion in time-series">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/video_demos_1.png" style="width:100%" 
-      onclick="currentSlide(5)" alt="Analytic Video - Extract emotion, eyegaze features from students">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/video_demos_2.png" style="width:100%" 
-      onclick="currentSlide(6)" alt="Analytic Video - Extract emotion, eyegaze features from students">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/assets/images/moemo_imgs/video_demos_3.png" style="width:100%" 
-      onclick="currentSlide(7)" alt="Analytic Video - Extract emotion, eyegaze features from students">
-    </div>
-  </div>
 </div>
