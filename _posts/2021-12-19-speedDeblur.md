@@ -10,9 +10,10 @@ tags:
 - IEEE MMSP 2021
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<p style="color: #02577a;"><i class="fa fa-globe"></i> <b><a target="_blank" style="color:#02577a" href="https://www.hosei.ac.jp/media/">Research Center for Computing and Multimedia Studies, Hosei University, Japan</a></b></p>
+
 <p style="color: #009f4d;"><i class="fa fa-trophy"></i> <b><a target="_blank" style="color:#009f4d" href="https://www.hosei.ac.jp/media/">Accepted and presented in IEEE 23nd International Workshop on Multimedia Signal Processing 2021 (IEEE MMSP2021)</a></b></p>
 
-<p style="color: #02577a;"><i class="fa fa-globe"></i> <b><a target="_blank" style="color:#02577a" href="https://www.hosei.ac.jp/media/">Research Center for Computing and Multimedia Studies, Hosei University, Japan</a></b></p>
 
 <p style="text-align: justify; color:black">
 
