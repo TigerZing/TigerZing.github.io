@@ -12,7 +12,7 @@ tags:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <p style="color: #02577a;"><i class="fa fa-globe"></i> <b><a target="_blank" style="color:#02577a" href="https://www.hosei.ac.jp/media/">Research Center for Computing and Multimedia Studies, Hosei University, Japan</a></b></p>
 
-<p style="color: #009f4d;"><i class="fa fa-trophy"></i> <a target="_blank" style="color:#009f4d" href="https://www.hosei.ac.jp/media/"><b>Accepted and presented</b> in <b>IEEE 23nd International Workshop on Multimedia Signal Processing 2021</b> in Tampere, Finland on October 06-08, 2021(<b>IEEE MMSP2021</b>)</a></p>
+<p style="color: #418f36;"><i class="fa fa-trophy"></i> <a target="_blank" style="color:#418f36" href="https://www.hosei.ac.jp/media/"><b>Accepted and presented</b> in <b>IEEE 23nd International Workshop on Multimedia Signal Processing 2021</b> in Tampere, Finland on October 06-08, 2021(<b>IEEE MMSP2021</b>)</a></p>
 
 
 <p style="text-align: justify; color:black">
@@ -29,12 +29,12 @@ Video Deblurring,
 Frame Interpolation,
 Convolutional Neural network
 <br>
-<b>Languages and frameworks </b>:
+<b>Programming Languages and frameworks </b>:
 <br> 
 Python,
 MATLAB,
 </p>
-<b style="color:black"> <i class="fa fa-file-video-o"></i>  DEMO VIDEO </b> 
+<b style="color:black"> <i class="fa fa-file-video-o"></i>  PRESENTATION VIDEO </b> 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ordc2U9Qoxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <b style="color:black"><i class="fa fa-picture-o"></i>  PRESENTATION IMAGES</b>
