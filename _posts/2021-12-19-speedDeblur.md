@@ -38,7 +38,7 @@ Javascript/AJAX,
 Plotly
 </p>
 <b style="color:black"> <i class="fa fa-file-video-o"></i>  DEMO VIDEO </b> 
-<iframe width="560" height="315" src="https://youtu.be/ordc2U9Qoxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/watch?v=ordc2U9Qoxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <b style="color:black"><i class="fa fa-picture-o"></i>  DEMO GALLERY</b>
 <!-- Container for the image gallery -->
