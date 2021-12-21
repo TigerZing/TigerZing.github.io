@@ -14,6 +14,8 @@ permalink: "/Portfolio/"
                     <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"> <span style="color:#a61717">PROJECT</span><br> MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
                     <a href="https://www.hosei.ac.jp/media/"><span class="conf">Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
+                    <span>2020/04 - present</span>
+                    <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                     <!--
                     <b>Techniques </b>:
@@ -21,7 +23,7 @@ permalink: "/Portfolio/"
                     <b>Languages and frameworks </b>: <span class="badge_module">Python</span> <span class="badge_module">Streamlit</span> <span class="badge_module">Sqlite3</span> <span class="badge_module">OpenCV</span><span class="badge_module">Tensorflow</span><br>
                     [<a href="https://www.youtube.com/watch?v=zbSBDbr08Uc" target="_blank" >Demo</a>]
                     -->
-                </span>
+                    </span>
                 <br>
                 <br>
             </td>
@@ -35,6 +37,8 @@ permalink: "/Portfolio/"
                     <a href="https://tigerzing.github.io/portfolio/speedDeblur.html"><b style="font-size: 13pt;"><span style="color:#a61717">MASTER THESIS</span><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
                     <br>
                     <a href="https://www.zhou-lab.info/"><span class="conf">Intelligent Media Processing Lab, Hosei University, Japan</span></a><br>
+                    <span>2020/01 - 2020/06</span>
+                    <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
                     <!--
                     <b>Techniques </b>:
@@ -56,6 +60,8 @@ permalink: "/Portfolio/"
                     <a href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;"><span style="color:#a61717">BACHELOR THESIS</span><br>EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
                     <a href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
+                    <span>2018/03 - 2018/07</span>
+                    <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
