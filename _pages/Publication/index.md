@@ -33,8 +33,8 @@ permalink: "/Publication/"
             </td>
             <td>
                 <span>
-                    <time itemprop="datePublished">14 Apr 2021</time>
                     <br>
+                    <time itemprop="datePublished">14 Apr 2021</time>
                     <a target="_blank" href="https://tigerzing.github.io/publication/icalt2021.html"><b style="font-size: 15pt;"><br> Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education (IEEE ICALT 2021).</b></a>
                 </span>
                 Hiroshi Ueda, <b>Ho Tan Nguyen</b>, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, M. Nehal Hasnine<br>
@@ -53,9 +53,9 @@ permalink: "/Publication/"
             <td>
                 <span>
                     <time itemprop="datePublished">25 Mar 2021</time>
-                    <br>
                     <a target="_blank" href="https://tigerzing.github.io/publication/cle33.html"><b style="font-size: 15pt;"><br>Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey (IPSJ 2021).</b></a>
                 </span>
+                <br>
                 M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
                 <span class="conf">Presented in 33rd Education and Learning Support Information System Research Presentation - Information Processing Society of Japan.</span><br>
                 [<a href="https://www.ipsj.or.jp/kenkyukai/event/cle33.html" target="_blank" >Conference</a>]
@@ -70,7 +70,6 @@ permalink: "/Publication/"
             <td>
                 <span>
                     <time itemprop="datePublished">28 May 2021</time>
-                    <br>
                     <a target="_blank" href="https://tigerzing.github.io/publication/kes2021.html"><b style="font-size: 15pt;"><br>Students’ emotion extraction and visualization for engagement detection in online learning (KES2021).</b></a>
                 </span>
                 M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, <b>Ho Tan Nguyen</b>, Gökhan Akçapınar, H. Ueda<br>
