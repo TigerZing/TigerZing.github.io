@@ -11,9 +11,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"> <span style="color:#a61717">PROJECT</span><br> MOEMO: Student Engagement Detection in online class</b></a>
+                    <a target="_blank" href="https://tigerzing.github.io/portfolio/moemo.html"><b style="font-size: 13pt;"> <span style="color:#a61717">PROJECT</span><br> MOEMO: Student Engagement Detection in online class</b></a>
                     <br>
-                    <a href="https://www.hosei.ac.jp/media/"><span class="conf">Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
+                    <a target="_blank" href="https://www.hosei.ac.jp/media/"><span class="conf">Research Center for Computing and Multimedia Studies, Hosei University, Japan</span></a><br>
                     <span>2021/04 - Present</span>
                     <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
@@ -34,9 +34,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/speedDeblur.html"><b style="font-size: 13pt;"><span style="color:#a61717">MASTER THESIS</span><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
+                    <a target="_blank" href="https://tigerzing.github.io/portfolio/speedDeblur.html"><b style="font-size: 13pt;"><span style="color:#a61717">MASTER THESIS</span><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video</b></a>
                     <br>
-                    <a href="https://www.zhou-lab.info/"><span class="conf">Intelligent Media Processing Lab, Hosei University, Japan</span></a><br>
+                    <a target="_blank" href="https://www.zhou-lab.info/"><span class="conf">Intelligent Media Processing Lab, Hosei University, Japan</span></a><br>
                     <span>2021/01 - 2021/06</span>
                     <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
@@ -57,9 +57,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;"><span style="color:#a61717">BACHELOR THESIS</span><br>EyeTeck: People Search in surveillance cameras network</b></a>
+                    <a target="_blank" href="https://tigerzing.github.io/portfolio/eyeteck.html"><b style="font-size: 13pt;"><span style="color:#a61717">BACHELOR THESIS</span><br>EyeTeck: People Search in surveillance cameras network</b></a>
                     <br>
-                    <a href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
+                    <a target="_blank" href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
                     <span>2018/03 - 2018/07</span>
                     <br>
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
@@ -80,9 +80,9 @@ permalink: "/Portfolio/"
             </td>
             <td>
                 <span>
-                    <a href="#"><b style="font-size: 13pt;"><span style="color:#a61717">ASSIGNMENT</span><br>Tank game 2016: Tank game with AI enemies</b></a>
+                    <a arget="_blank" href="https://tigerzing.github.io/portfolio/tank2016.html"><b style="font-size: 13pt;"><span style="color:#a61717">ASSIGNMENT</span><br>Tank game 2016: Tank game with AI enemies</b></a>
                     <br>
-                    <span class="conf">University of Information Technology, Vietnam</span><br>
+                    <a target="_blank" href="http://mmlab.uit.edu.vn/"><span class="conf">University of Information Technology, Vietnam</span></a><br> 
                     <span class="star_badge">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     <!--
                     <b>Techniques </b>:
