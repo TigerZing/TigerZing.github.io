@@ -19,7 +19,7 @@ permalink: "/Publication/"
                     <a target="_blank" href="https://tigerzing.github.io/publication/mmsp2021.html"><b style="font-size: 15pt;"><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video (IEEE MMSP 2021).</b></a>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
-                <span class="conf">Accepted in IEEE 23nd International Workshop on Multimedia Signal Processing.</span><br> 
+                <span class="conf" style="color: #418f36;">Accepted in IEEE 23nd International Workshop on Multimedia Signal Processing.</span><br> 
                 [<a href="https://attend.ieee.org/mmsp-2021" target="_blank" >Conference</a>]
                 <br>
                 <br>
@@ -38,7 +38,7 @@ permalink: "/Publication/"
                     <a target="_blank" href="https://tigerzing.github.io/publication/icalt2021.html"><b style="font-size: 15pt;"><br> Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education (IEEE ICALT 2021).</b></a>
                 </span>
                 Hiroshi Ueda, <b>Ho Tan Nguyen</b>, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, M. Nehal Hasnine<br>
-                <span class="conf">Accepted in 21st IEEE International Conference on Advanced Learning Technologies.</span><br>
+                <span class="conf" style="color: #418f36;">Accepted in 21st IEEE International Conference on Advanced Learning Technologies.</span><br>
                 [<a href="https://tc.computer.org/tclt/icalt2021/" target="_blank" >Conference</a>]
                 <br>
                 <br>
@@ -57,7 +57,7 @@ permalink: "/Publication/"
                 </span>
                 <br>
                 M. Nehal Hasnine, <b>Ho Tan Nguyen</b>, Huyen T. T. bui, Thuy T. T. Tran, H. Hatakeyama, H. Ueda<br>
-                <span class="conf">Presented in 33rd Education and Learning Support Information System Research Presentation - Information Processing Society of Japan.</span><br>
+                <span class="conf" style="color: #418f36;">Presented in 33rd Education and Learning Support Information System Research Presentation - Information Processing Society of Japan.</span><br>
                 [<a href="https://www.ipsj.or.jp/kenkyukai/event/cle33.html" target="_blank" >Conference</a>]
                 <br>
                 <br>
@@ -73,7 +73,7 @@ permalink: "/Publication/"
                     <a target="_blank" href="https://tigerzing.github.io/publication/kes2021.html"><b style="font-size: 15pt;"><br>Students’ emotion extraction and visualization for engagement detection in online learning (KES2021).</b></a>
                 </span>
                 M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, <b>Ho Tan Nguyen</b>, Gökhan Akçapınar, H. Ueda<br>
-                <span class="conf">Accepted in 25th International Conference on Knowledge-Based and Intelligent Information & Engineering System.</span><br>
+                <span class="conf" style="color: #418f36;">Accepted in 25th International Conference on Knowledge-Based and Intelligent Information & Engineering System.</span><br>
                 [<a href="http://kes2021.kesinternational.org/" target="_blank" >Conference</a>]
                 <br>
                 <br>
