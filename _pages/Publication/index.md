@@ -13,9 +13,9 @@ permalink: "/Publication/"
                 <img width="95%" class="paper-img" src="/assets/images/Publication/mmsp2021.png">
             </td>
             <td>
-            <time itemprop="datePublished">24 Jul 2021</time>
             <br>
                 <span>
+                    <time itemprop="datePublished">24 Jul 2021</time>
                     <a target="_blank" href="https://tigerzing.github.io/publication/mmsp2021.html"><b style="font-size: 15pt;"><br> SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video (IEEE MMSP 2021).</b></a>
                 </span>
                 <b>Ho Tan Nguyen</b>, Pham D. K. Chi, <a href="https://www.zhou-lab.info/jinjia-zhou" style="text-decoration: none"> Jinjia Zhou</a><br>
