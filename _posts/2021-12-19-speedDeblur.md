@@ -136,7 +136,7 @@ MATLAB,
             <td>
               <span><a target="_blank" href="https://researchmap.jp/zhou"><b>Jinjia ZHOU (周 金佳)</b></a></span>
               <br>
-              <span style="color:black">Associate Professor, Faculty of Science and Engineering Department of Applied Informatics, Hosei University.</span>
+              <span style="color:black">Associate Professor, Faculty of Science and Engineering Department of Applied Informatics, Hosei University, Japan.</span>
             </td>
         </tr>
     </tbody>
