@@ -124,22 +124,22 @@ MATLAB,
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-
-  <br>
+<br>
   <hr>
   <b style="color:black">Supervisor </b>
   <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
     <tbody>
         <tr>
             <td width="15%">
-                <img style="max-width:100px; border-radius:10%" src="/assets/images/DuyLe.jpeg">
+                <img style="max-width:100px; border-radius:10%" src="/assets/images/jinjia_zhou.jpeg">
             </td>
             <td>
-              <span><a target="_blank" href="https://researchmap.jp/ledduy"><b>Duy-Dinh LE (レイ ユイデン)</b></a></span>
+              <span><a target="_blank" href="https://researchmap.jp/zhou"><b>Jinjia ZHOU (周 金佳)</b></a></span>
               <br>
-              <span style="color:black">Associate Professor, Head, Department of Graduate Studies - Science Technology, University of Information Technology, Vietnam</span>
+              <span style="color:black">Associate Professor, Faculty of Science and Engineering Department of Applied Informatics, Hosei University.</span>
             </td>
         </tr>
     </tbody>
   </table>
   <br>
+  
