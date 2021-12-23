@@ -123,5 +123,23 @@ MATLAB,
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 </div>
+
+  <br>
+    <hr>
+    <b style="color:black">Supervisor </b>
+    <table cellspacing="15" width="100%" style="margin-left: auto;  margin-right: auto; table-layout:fixed;">
+      <tbody>
+          <tr>
+              <td width="15%">
+                  <img style="max-width:100px; border-radius:10%" src="/assets/images/hasnine_mohammad_nehal.jpeg">
+              </td>
+              <td>
+                <span><a target="_blank" href="https://researchmap.jp/nehalhasnine"><b>HASNINE MOHAMMAD NEHAL (ハスナイン モハーマド ネハル)</b></a></span>
+                <br>
+                <span style="color:black">Associate Professor at the Research Center for Computing and Multimedia Studies of Hosei University.</span>
+              </td>
+          </tr>
+      </tbody>
+    </table>
+    <br>
