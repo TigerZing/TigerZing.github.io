@@ -96,7 +96,7 @@ function showSlides(n) {
 }
 
 /* js for resume page */
-function openCity(evt, cityName) {
+function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
