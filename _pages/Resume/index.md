@@ -8,23 +8,15 @@ permalink: "/Resume/"
  -->
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'english_ver')">English Resume</button>
+  <button class="tablinks" onclick="openCity(event, 'japanese_ver')">Japanese Resume</button>
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="english_ver" class="tabcontent">
+  <object data="/assets/images/Resume_NguyenTanHo_en.pdf?#zoom=100" width="1000" height="1000" type='application/pdf'/>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="japanese_ver" class="tabcontent">
+  <object data="/assets/images/Resume_NguyenTanHo_jp.pdf?#zoom=100" width="1000" height="1000" type='application/pdf'/>
 </div>
