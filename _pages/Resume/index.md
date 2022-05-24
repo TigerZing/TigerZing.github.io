@@ -8,4 +8,3 @@ permalink: "/Resume/"
 
 <h3>Japanese version</h3>
 <object data="/assets/images/Resume_NguyenTanHo_jp.pdf?#zoom=100" width="1000" height="1000" type='application/pdf'/>
-</div>
