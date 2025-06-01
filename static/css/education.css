@@ -1,0 +1,142 @@
+/* education.css */
+
+/* Global reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* light gray background */
+    color: #333; /* dark text */
+    padding: 20px;
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 1.8rem;        /* larger font for section heading */
+    margin-bottom: 1rem;      /* space below */
+    color: #222;              /* slightly darker */
+  }
+  
+  /* Container for the education section */
+  .education-section {
+    max-width: 800px;       /* limit width */
+    margin: 0 auto;         /* center on page */
+    background-color: #fff; /* white background for the whole block */
+    border-radius: 8px;     /* rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+    padding: 20px;
+  }
+  
+  /* Each education item */
+  .education-item {
+    display: flex;
+    align-items: flex-start; /* align logo top with text */
+    padding: 16px 0;
+  }
+  
+  /* School logo container */
+  .school-logo {
+    flex: 0 0 60px;       /* fixed width for logo */
+    margin-right: 16px;   /* space between logo and content */
+  }
+  
+  .school-logo img {
+    width: 100%;          /* make logo responsive to container */
+    height: auto;
+    object-fit: contain;  /* preserve aspect ratio */
+  }
+  
+  /* Content area (school name, degree, etc.) */
+  .education-content {
+    flex: 1;              /* takes remaining space */
+  }
+  
+  /* School name and dates row */
+  .school-header {
+    display: flex;
+    align-items: baseline;      /* align text baseline for name and dates */
+    justify-content: space-between;
+    margin-bottom: 4px;         /* small space below header */
+  }
+  
+  /* School name style */
+  .school-name {
+    font-size: 1.2rem;     /* slightly larger for name */
+    font-weight: bold;     /* bold text */
+    color: #111;
+  }
+  
+  /* Dates style */
+  .education-dates {
+    font-size: 0.9rem;     /* smaller than name */
+    color: #666;           /* gray color for dates */
+  }
+  
+  /* Degree paragraph */
+  .degree {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 4px;    /* space to next line */
+  }
+  
+  /* Grade paragraph */
+  .grade {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 8px;    /* space before list */
+  }
+  
+  /* Details list (bullet points) */
+  .details-list {
+    list-style: disc inside; /* bullet points inside the container */
+    margin-left: 0;          
+    padding-left: 16px;      /* indent for list items */
+  }
+  
+  .details-list li {
+    margin-bottom: 4px;      /* vertical spacing between items */
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  /* Divider line between items */
+  .divider {
+    height: 1px;
+    background-color: #e0e0e0; /* light gray line */
+    margin: 0 0 0 0;           /* no vertical margin except defined below */
+  }
+  
+  /* Add margin above each divider except the first (so they space from items) */
+  .education-item + .divider {
+    margin: 0;  /* already defined height, so no extra margin */
+  }
+  
+  /* Add margin below divider before next item */
+  .divider + .education-item {
+    margin-top: 0; /* no extra, but keep consistency */
+  }
+  
+  /* Responsive: on very small screens, stack logo above content */
+  @media (max-width: 500px) {
+    .education-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .school-logo {
+      margin-right: 0;
+      margin-bottom: 12px;
+      width: 80px; /* slightly larger on mobile */
+    }
+    .school-header {
+      flex-direction: column;
+    }
+    .education-dates {
+      margin-top: 4px;
+    }
+  }
+  
