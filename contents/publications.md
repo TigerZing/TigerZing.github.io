@@ -9,8 +9,8 @@
 
 - Mohammad Nehal Hasnine, **Ho Tan Nguyen**, Thuy Thi Thu Tran, Huyen T. T. Bui, Gökhan Akçapınar, and Hiroshi Ueda (2023). _A Real-Time Learning Analytics Dashboard for Automatic Detection of Online Learners’ Affective States_. Sensor, Special Issue: Advances of Sensors and Human-Centered Intelligent Systems in Education, Mar 2, 2023.
 
-- M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, **Ho Tan Nguyen**, Gökhan Akçapınar, and Hiroshi Ueda (2021). _Students’ emotion extraction and visualization for engagement detection in online learning_. KES 2021 (Accepted in 25th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems), May 27, 2021.
-
 - Hiroshi Ueda, **Ho Tan Nguyen**, Huyen T. T. Bui, Thuy T. Tran, H. Hatakeyama, and M. Nehal Hasnine (2021). _Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education_. IEEE ICALT 2021 (Accepted in 21st IEEE International Conference on Advanced Learning Technologies), Apr 13, 2021.
 
 - M. Nehal Hasnine, **Ho Tan Nguyen**, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, and H. Ueda (2021). _Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey_. Presented in 33rd Education and Learning Support Information System Research Presentation – Information Processing Society of Japan, Mar 24, 2021.
+
+- M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, **Ho Tan Nguyen**, Gökhan Akçapınar, and Hiroshi Ueda (2021). _Students’ emotion extraction and visualization for engagement detection in online learning_. KES 2021 (Accepted in 25th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems), May 27, 2021.
