@@ -1,4 +1,3 @@
-#### Publications
 - **Ho Tan Nguyen**, Mohammad Nehal Hasnine, and Hiroshi Ueda (2024). _Towards knowing students’ emotional states from their voices while interacting with teachers_. Accepted in the 15th International Conference on Learning Analytics & Knowledge (LAK’25), Dec 1, 2024.
 
 - **Ho Tan Nguyen**, Chi Do-Kim Pham, and Jinjia Zhou (2021). _SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video_. IEEE MMSP 2021 (Accepted in IEEE 23rd International Workshop on Multimedia Signal Processing), Jul 23, 2021.
