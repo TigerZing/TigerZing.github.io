@@ -1,0 +1,97 @@
+/* profile-header.css */
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  /* Main container for profile header */
+  .profile-header {
+    background-color: #ffffff; /* White background */
+    width: 100%;
+    max-width: 350px; /* Limit width */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 24px 16px 32px; /* Top, sides, bottom padding */
+    text-align: center; /* Center all text */
+  }
+  
+  /* Avatar container (for styling or border wrapper) */
+  .avatar-container {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto; /* Center horizontally */
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Crop overflow */
+    border: 4px solid #ffffff; /* White border around avatar */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Light shadow around avatar */
+  }
+  
+  /* Avatar image */
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover container without distortion */
+  }
+  
+  /* Profile name */
+  .profile-name {
+    margin-top: 16px; /* Space above name */
+    font-size: 1.4rem; /* Larger font for name */
+    font-weight: bold;
+    color: #222222; /* Dark text */
+  }
+  
+  /* Pronouns */
+  .pronouns {
+    font-size: 0.9rem; /* Smaller than name */
+    font-weight: normal;
+    color: #666666; /* Gray text for pronouns */
+    margin-left: 8px; /* Space between name and pronouns */
+  }
+  
+  /* Profile title */
+  .profile-title {
+    margin-top: 8px; /* Space above title */
+    font-size: 1rem;
+    color: #555555; /* Medium gray */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 420px) {
+    .profile-header {
+      padding: 20px 12px 28px;
+      max-width: 90%; /* Allow fluid width on small screens */
+    }
+  
+    .avatar-container {
+      width: 120px;
+      height: 120px;
+      border-width: 3px;
+    }
+  
+    .profile-name {
+      font-size: 1.2rem;
+    }
+  
+    .pronouns {
+      font-size: 0.85rem;
+    }
+  
+    .profile-title {
+      font-size: 0.95rem;
+    }
+  }
+  

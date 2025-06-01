@@ -1,0 +1,86 @@
+/* profile-header.css */
+
+/* 1. Styles cho khung nền xám */
+.profile-section-bg {
+    width: 100%;
+    background-color: #f5f5f5; /* Màu xám nhạt toàn chiều ngang */
+    padding: 40px 0; /* Khoảng cách trên/dưới để tạo khoảng “breathing space” */
+  }
+  
+  /* 2. Card trắng chứa avatar + tên + title */
+  .profile-header {
+    max-width: 800px;              /* Giới hạn độ rộng tương tự content-wrapper */
+    margin: 0 auto;                /* Căn giữa trong vùng nền xám */
+    background-color: #ffffff;     /* Card nền trắng */
+    border-radius: 8px;            /* Bo góc nhẹ */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow nhẹ để nổi bật */
+    padding: 24px 16px 32px;       /* Padding bên trong card (24px trên, 16px trái/phải, 32px dưới) */
+    text-align: center;            /* Căn giữa avatar + tên + title */
+  }
+  
+  /* 3. Avatar wrapper */
+  .avatar-container {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;                /* Căn giữa avatar trong card */
+    border-radius: 50%;            /* Bo tròn thành circle */
+    overflow: hidden;              /* Crop ảnh thành hình tròn */
+    border: 4px solid #ffffff;     /* Viền trắng để nổi bật */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow nhẹ quanh avatar */
+  }
+  
+  /* 4. Avatar image */
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;             /* Cover container tròn mà không méo hình */
+  }
+  
+  /* 5. Tên và pronouns */
+  .profile-name {
+    margin-top: 16px;              /* Khoảng cách từ avatar đến tên */
+    font-size: 1.8rem;             /* Kích thước lớn hơn để nổi bật */
+    font-weight: bold;
+    color: #222222;                /* Màu chữ đậm */
+  }
+  
+  /* Pronouns (he/him) */
+  .pronouns {
+    font-size: 0.9rem;             /* Nhỏ hơn so với tên chính */
+    font-weight: normal;
+    color: #666666;                /* Xám nhạt hơn */
+    margin-left: 8px;              /* Cách nhẹ bên trái tên */
+  }
+  
+  /* 6. Chức danh (AI Engineer) */
+  .profile-title {
+    margin-top: 8px;               /* Khoảng cách từ tên đến title */
+    font-size: 1rem;
+    color: #555555;                /* Xám trung bình */
+  }
+  
+  /* 7. Responsive (nếu màn hình nhỏ hơn 600px) */
+  @media (max-width: 600px) {
+    .profile-section-bg {
+      padding: 32px 0;
+    }
+    .profile-header {
+      padding: 20px 12px 28px;
+      max-width: 90%;              /* Cho phép card hơi rộng hơn trên mobile */
+    }
+    .avatar-container {
+      width: 100px;
+      height: 100px;
+      border-width: 3px;
+    }
+    .profile-name {
+      font-size: 1.5rem;
+    }
+    .pronouns {
+      font-size: 0.85rem;
+    }
+    .profile-title {
+      font-size: 0.95rem;
+    }
+  }
+  
