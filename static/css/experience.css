@@ -23,7 +23,6 @@
   
   /* Container for the experience section */
   .experience-section {
-    max-width: 800px;       /* limit width */
     margin: 0 auto;         /* center on page */
     background-color: #fff; /* white background */
     border-radius: 8px;     /* rounded corners */
