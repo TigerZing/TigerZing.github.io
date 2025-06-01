@@ -1,6 +1,3 @@
-[![TigerZing](https://img.shields.io/badge/TigerZing-github-blue?logo=github)](https://github.com/TigerZing)
-
-He is currently working as **Algorithm Engineer** at **Ficha Inc.**, Tokyo, Japan.
 
 #### Education
 - **M.S., Applied Informatics**, Hosei University, Tokyo, Japan, Sep 2019—Aug 2021  
