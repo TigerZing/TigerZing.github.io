@@ -62,7 +62,7 @@
   
   /* Job title (position) */
   .job-title {
-    font-size: 1.1rem;    /* slightly larger for title */
+    font-size: 1.2rem;    /* slightly larger for title */
     font-weight: bold;
     color: #111;
     margin-bottom: 2px;   /* space between title and company */
