@@ -87,7 +87,7 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
+            <!-- <a href="#page-top"><img src="static/static/assets/images/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -97,6 +97,12 @@
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#education">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#projects">PROJECTS</a>
@@ -110,7 +116,7 @@
         </div>
     </nav>
     <!-- Top Section -->
-    <!-- <section class="top-section" style="background-image: url('static/static/assets/img/background.jpeg');">
+    <!-- <section class="top-section" style="background-image: url('static/static/assets/images/background.jpeg');">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -122,7 +128,7 @@
     <!-- Photo -->
     <!-- <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/static/assets/img/photo.jpeg">
+            <img class="shadow" src="static/static/assets/images/photo.jpeg">
         </div>
     </div> -->
     <!-- Photo -->
@@ -135,13 +141,13 @@
                 <!-- <span class="bi bi-list"></span> -->
             </header>
             <!-- <div class="main-body" id="home-md"></div> -->
-            <section class="education-section">
+            <section class="education-section" id="education">
                 <h2 class="section-title">Education</h2>
             
                 <!-- Education Item 1 -->
                 <div class="education-item">
                   <div class="school-logo">
-                    <img src="static/assets/img/hosei_logo.png" alt="Hosei University Logo">
+                    <img src="static/assets/images/hosei_logo.png" alt="Hosei University Logo">
                   </div>
                   <div class="education-content">
                     <div class="school-header">
@@ -160,7 +166,7 @@
                 <!-- Education Item 2 -->
                 <div class="education-item">
                   <div class="school-logo">
-                    <img src="static/assets/img/uit_logo.png" alt="University of Information Technology Logo">
+                    <img src="static/assets/images/uit_logo.png" alt="University of Information Technology Logo">
                   </div>
                   <div class="education-content">
                     <div class="school-header">
@@ -174,13 +180,13 @@
                   </div>
                 </div>
               </section>
-              <section class="experience-section">
+              <section class="experience-section" id="experience">
                 <h2 class="section-title">Experience</h2>
             
                 <!-- Experience Item 1 -->
                 <div class="experience-item">
                   <div class="company-logo">
-                    <img src="static/assets/img/ficha_logo.png" alt="Ficha Inc. Logo">
+                    <img src="static/assets/images/ficha_logo.png" alt="Ficha Inc. Logo">
                   </div>
                   <div class="experience-content">
                     <div class="job-header">
@@ -208,7 +214,7 @@
                 <!-- Experience Item 2 -->
                 <div class="experience-item">
                   <div class="company-logo">
-                    <img src="static/assets/img/hosei_logo.png" alt="Research Center HOSEI Logo">
+                    <img src="static/assets/images/hosei_logo.png" alt="Research Center HOSEI Logo">
                   </div>
                   <div class="experience-content">
                     <div class="job-header">
@@ -236,11 +242,256 @@
                   </div>
                 </div>
               </section>
-              <section class="experience-section">
+              <section class="experience-section" id="projects">
                 <h2 class="section-title">Projects</h2>
 
+                <div class="container px-5">
+                  <!-- =======================================
+                       HORIZONTAL SCROLL CONTAINER (“slider”)
+                       - display: flex to lay out cards in a row
+                       - overflow-x: auto to enable horizontal scrolling
+                       ======================================= -->
+                  <div class="project-slider">
+                    <!-- ==== Project Card 1 ==== -->
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+              
+                  </div>
+                </div>
               </section>
-              <section class="experience-section">
+              <section class="experience-section" id="publications">
                 <h2 class="section-title">Publications</h2>
                 <div class="profile-section-bg">
                   <!-- ==============================
@@ -260,7 +511,6 @@
                           </h3>
                           
                         </div>
-              
                         <!-- Venue and date -->
                         <div class="pub-meta">
                           <span class="pub-venue"><a href="https://dl.acm.org/doi/proceedings/10.1145/3706468" target="_blank" rel="noopener noreferrer" class="no-underline">LAK’25</a></span></span>
@@ -270,7 +520,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
               
@@ -304,7 +554,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -333,7 +583,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -362,7 +612,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -391,7 +641,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -420,7 +670,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -452,7 +702,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
@@ -481,7 +731,7 @@
                           rel="noopener noreferrer"
                           class="paper-icon"
                           title="Open Paper">
-                         <img src="static/assets/img/paper.png" alt="Paper" />
+                         <img src="static/assets/images/paper.png" alt="Paper" />
                        </a>
                         </div>
                         <p class="pub-desc">
