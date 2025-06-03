@@ -34,6 +34,19 @@ a.no-underline:hover {
   color: #005a99;             /* optional: darker color on hover */
 }
 
+.paper-icon img {
+  width: 30px;       /* keep original dimensions */
+  height: 30px;
+  object-fit: contain;
+  border: none;
+  transform: scale(0.8);  /* shrink to 50% */
+  transform-origin: center top;
+}
+.paper-icon {
+  display: inline-block;         /* behave like inline element */
+  margin-left: 6px;              /* space between date and icon */
+  vertical-align: middle;        /* align icon vertically with text */
+}
 .pub-title-header {
   font-size: 1.5rem;
   font-weight: bold;
