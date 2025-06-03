@@ -4,7 +4,6 @@
 .profile-section-bg {
     width: 100%;
     background-color: #f5f5f5; /* Màu xám nhạt toàn chiều ngang */
-    padding: 40px 0; /* Khoảng cách trên/dưới để tạo khoảng “breathing space” */
   }
   
   /* 2. Card trắng chứa avatar + tên + title */
