@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOEMO – Web-Based Student Engagement Measurement</title>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <!-- ===========================
+       Custom Styles for Page
+       =========================== -->
+  <style>
+    /* Body and general text styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: #02577a;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    /* ================================
+       Link-colored paragraphs
+       ================================ */
+    .center-link {
+      color: #02577a;
+      margin-bottom: 1rem;
+    }
+
+    .center-link i {
+      margin-right: 6px;
+    }
+
+    /* ================================
+       Slideshow container
+       ================================ */
+    .slideshow-container {
+      position: relative;
+      margin: 0 auto 20px auto;
+      max-width: 800px;
+      background-color: #f5f5f5;
+      border: 2px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .mySlides {
+      display: none; /* Hidden by default */
+      position: relative;
+    }
+
+    .mySlides img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .numbertext {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -24px;
+      padding: 12px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 0 4px 4px 0;
+      user-select: none;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .next {
+      right: 0;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    /* Fade animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Supervisor section styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    table img {
+      max-width: 100px;
+      border-radius: 10%;
+      display: block;
+    }
+
+    /* Heading for "Supervisor" */
+    .supervisor-title {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body style="max-width: 900px; justify-self: center;">
+  <!-- ===========================
+       Page Title
+       =========================== -->
+  <h1>
+    [Project] MOEMO: A Web-Based Application To Measure Student Engagement
+    In Online Learning Environment
+  </h1>
+
+  <!-- ===========================
+       Institution Link
+       =========================== -->
+  <p class="center-link">
+    <!-- English comment: Research Center link with a globe icon -->
+    <i class="fa fa-globe"></i>
+    <a href="https://www.hosei.ac.jp/media/" target="_blank" rel="noopener noreferrer">
+      Research Center for Computing and Multimedia Studies, Hosei University,
+      Japan
+    </a>
+  </p>
+
+  <!-- ===========================
+       Project Description
+       =========================== -->
+  <p style="text-align: justify; color: black">
+    In the current complicated COVID epidemic, many educational institutions
+    have applied online teaching. Monitoring and analyzing students'
+    academic performance in the online environment is essential. Thus, we
+    developed this web-based application to help administrators and teachers
+    capture students' learning performance. Then lecturers can improve more
+    appropriate teaching methods.<br />
+    We apply machine learning techniques in this research to exploit student
+    features such as facial features, emotional features, eye gaze, eye
+    movement, and so on. In addition, we design a suitable mapping method to
+    assess student engagement throughout the class.
+  </p>
+
+  <!-- ===========================
+       Techniques & Frameworks
+       =========================== -->
+  <p style="color: black">
+    <b>Techniques:</b>
+    <br />
+    Emotion Detection, Face Recognition, Face Re-identification, Eyegaze
+    Tracking
+    <br />
+    <b>Programming Languages and Frameworks:</b>
+    <br />
+    Python, Flask, SQLite3, OpenCV, TensorFlow, HTML/CSS, JavaScript/AJAX,
+    Plotly
+  </p>
+
+
+  <!-- ===========================
+       Demo Gallery Slideshow
+       =========================== -->
+  <p style="color: black; margin-top: 20px">
+    <b><i class="fa fa-picture-o"></i> DEMO GALLERY</b>
+  </p>
+
+  <div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="../../static/assets/moemo_imgs/dashboard.png" alt="MOEMO Dashboard" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="../../static/assets/moemo_imgs/overview_visualization.png" alt="Overview Visualization" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="../../static/assets/moemo_imgs/student_visualization_1.png" alt="Student Visualization 1" />
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="../../static/assets/moemo_imgs/student_visualization_2.png" alt="Student Visualization 2" />
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="../../static/assets/moemo_imgs/video_demos_1.png" alt="Video Demo 1" />
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="../../static/assets/moemo_imgs/video_demos_2.png" alt="Video Demo 2" />
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="../../static/assets/moemo_imgs/video_demos_3.png" alt="Video Demo 3" />
+    </div>
+
+    <!-- Next/Previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <hr style="margin: 40px 0" />
+
+  <!-- ===========================
+       Supervisor Section
+       =========================== -->
+  <b class="supervisor-title" style="color: black">Supervisor</b>
+  <table cellspacing="15" style="margin: 0 auto; table-layout: fixed">
+    <tbody>
+      <tr>
+        <td width="15%">
+          <img src="../../static/assets/images/hasnine_mohammad_nehal.jpeg" alt="Nehal Hasnine" />
+        </td>
+        <td>
+          <span
+            ><a
+              href="https://researchmap.jp/nehalhasnine"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><b>HASNINE MOHAMMAD NEHAL (ハスナイン モハーマド ネハル)</b></a
+            ></span
+          ><br />
+          <span style="color: black"
+            >Associate Professor at the Research Center for Computing and
+            Multimedia Studies of Hosei University, Japan.</span
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ===========================
+       Slideshow Script
+       =========================== -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    // Show the slide at index n
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    // Automatically advance slides every 5 seconds
+    setInterval(function () {
+      plusSlides(1);
+    }, 5000);
+  </script>
+</body>
+</html>
