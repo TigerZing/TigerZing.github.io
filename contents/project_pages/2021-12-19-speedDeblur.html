@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SpeedDeblur – Master Thesis</title>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <!-- ===========================
+       Custom Styles for Page
+       =========================== -->
+  <style>
+    /* Body and general text styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: #02577a;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    /* ================================
+       Link-colored paragraphs
+       ================================ */
+    .center-link {
+      color: #02577a;
+      margin-bottom: 1rem;
+    }
+
+    .center-link i {
+      margin-right: 6px;
+    }
+
+    .trophy-link {
+      color: #418f36;
+      margin-bottom: 1.5rem;
+    }
+
+    .trophy-link i {
+      margin-right: 6px;
+    }
+
+    /* ================================
+       Fade-in slide container (slideshow)
+       ================================ */
+    .container {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      background-color: #f5f5f5;
+      border: 2px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .mySlides {
+      display: none; /* Hidden by default */
+      position: relative;
+    }
+
+    .mySlides img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .numbertext {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -24px;
+      padding: 12px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 0 4px 4px 0;
+      user-select: none;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .next {
+      right: 0;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    /* Fade animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Supervisor section styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    table img {
+      max-width: 100px;
+      border-radius: 10%;
+      display: block;
+    }
+
+    /* Heading for "Supervisor" */
+    .supervisor-title {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body style="max-width: 900px; justify-self: center;">
+  <!-- ===========================
+       Page Title
+       =========================== -->
+  <h1>
+    [Master Thesis] SpeedDeblur – A Framework to Accelerate CNN-based
+    Deblurring for HEVC Reconstructed Video
+  </h1>
+
+  <!-- ===========================
+       Institution Link
+       =========================== -->
+  <p class="center-link">
+    <!-- English comment: Research Center link with a globe icon -->
+    <i class="fa fa-globe"></i>
+    <a
+      href="https://www.zhou-lab.info"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Research Center for Computing and Multimedia Studies,
+      Hosei University, Japan
+    </a>
+  </p>
+
+  <!-- ===========================
+       Conference Acceptance Link
+       =========================== -->
+  <p class="trophy-link">
+    <!-- English comment: Conference acceptance with trophy icon -->
+    <i class="fa fa-trophy"></i>
+    <a
+      href="https://attend.ieee.org/mmsp-2021/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <b
+        >Accepted and presented in IEEE 23rd International Workshop on
+        Multimedia Signal Processing 2021 in Tampere, Finland on October
+        06–08, 2021 (IEEE MMSP 2021)</b
+      >
+    </a>
+  </p>
+
+  <!-- ===========================
+       Paper Abstract
+       =========================== -->
+  <p style="text-align: justify; color: black">
+    This paper proposes a speedup convolutional neural network
+    (CNN)-based deblurring framework (SpeedDeblur) for reconstructed blurry
+    videos. First, we extract the coding information and the reconstructed
+    video from the compressed data. Second, a CNN-based algorithm is used
+    for deblurring the first reconstructed frame. <!--more-->
+    Pixels of the deblurred frames are transferred to the subsequent frames
+    guided by HEVC decoded data. The transferring process is simple and
+    faster than applying a deblurring algorithm on all frames. However,
+    passing pixels throughout a long video propagates accumulated errors and
+    reduces the deblurring performance. To bridge this gap, we design an
+    adaptive reset strategy for deciding which frame needs CNN-based deblur
+    during the transferring process. Besides, a data generation strategy
+    simulating blurry real-world factors such as camera shake and fast
+    movement is proposed. Compared to frame-by-frame deblurring approaches,
+    our framework can retain the same comparable results and boost the
+    deblurring processing by up to 4.0 <i>times</i> and 99.4 <i>times</i> on
+    GPU and CPU, respectively.
+  </p>
+
+  <!-- ===========================
+       Techniques & Frameworks
+       =========================== -->
+  <p style="color: black">
+    <b>Techniques:</b>
+    <br />
+    Video Compression, Video Deblurring, Frame Interpolation, Convolutional
+    Neural Network
+    <br />
+    <b>Programming Languages and Frameworks:</b>
+    <br />
+    Python, MATLAB
+  </p>
+
+  <!-- ===========================
+       Presentation Video
+       =========================== -->
+  <!-- <p style="color: black">
+    <b><i class="fa fa-file-video-o"></i> PRESENTATION VIDEO</b>
+  </p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/ordc2U9Qoxs"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe> -->
+
+  <!-- ===========================
+       Presentation Images Slideshow
+       =========================== -->
+  <p style="color: black; margin-top: 20px">
+    <b><i class="fa fa-picture-o"></i> PRESENTATION IMAGES</b>
+  </p>
+
+  <div class="container">
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0001.jpg" alt="Slide 1" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0002.jpg" alt="Slide 2" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0003.jpg" alt="Slide 3" />
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0004.jpg" alt="Slide 4" />
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0005.jpg" alt="Slide 5" />
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0006.jpg" alt="Slide 6" />
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0007.jpg" alt="Slide 7" />
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="mySlides fade">
+      <div class="numbertext">8 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0008.jpg" alt="Slide 8" />
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0009.jpg" alt="Slide 9" />
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="mySlides fade">
+      <div class="numbertext">10 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0010.jpg" alt="Slide 10" />
+    </div>
+
+    <!-- Slide 11 -->
+    <div class="mySlides fade">
+      <div class="numbertext">11 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0011.jpg" alt="Slide 11" />
+    </div>
+
+    <!-- Slide 12 -->
+    <div class="mySlides fade">
+      <div class="numbertext">12 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0012.jpg" alt="Slide 12" />
+    </div>
+
+    <!-- Slide 13 -->
+    <div class="mySlides fade">
+      <div class="numbertext">13 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0013.jpg" alt="Slide 13" />
+    </div>
+
+    <!-- Slide 14 -->
+    <div class="mySlides fade">
+      <div class="numbertext">14 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0014.jpg" alt="Slide 14" />
+    </div>
+
+    <!-- Slide 15 -->
+    <div class="mySlides fade">
+      <div class="numbertext">15 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0015.jpg" alt="Slide 15" />
+    </div>
+
+    <!-- Slide 16 -->
+    <div class="mySlides fade">
+      <div class="numbertext">16 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0016.jpg" alt="Slide 16" />
+    </div>
+
+    <!-- Slide 17 -->
+    <div class="mySlides fade">
+      <div class="numbertext">17 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0017.jpg" alt="Slide 17" />
+    </div>
+
+    <!-- Slide 18 -->
+    <div class="mySlides fade">
+      <div class="numbertext">18 / 18</div>
+      <img src="../../static/assets/SpeedDeblur_presentation_imgs/0018.jpg" alt="Slide 18" />
+    </div>
+
+    <!-- Next/Previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <hr style="margin: 40px 0" />
+
+  <!-- ===========================
+       Supervisor Section
+       =========================== -->
+  <b class="supervisor-title" style="color: black">Supervisor</b>
+  <table cellspacing="15" style="margin: 0 auto; table-layout: fixed">
+    <tbody>
+      <tr>
+        <td width="15%">
+          <img
+            src="../../static/assets/images/jinjia_zhou.jpeg"
+            alt="Jinjia Zhou"
+          />
+        </td>
+        <td>
+          <span
+            ><a
+              href="https://researchmap.jp/zhou"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><b>Jinjia ZHOU (周 金佳)</b></a
+            ></span
+          ><br />
+          <span style="color: black"
+            >Associate Professor, Faculty of Science and Engineering,
+            Department of Applied Informatics, Hosei University, Japan.</span
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ===========================
+       Slideshow Script
+       =========================== -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    // Show the slide at index n
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    // Automatically advance slides every 5 seconds
+    setInterval(function () {
+      plusSlides(1);
+    }, 5000);
+  </script>
+</body>
+</html>

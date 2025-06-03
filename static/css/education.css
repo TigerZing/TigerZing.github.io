@@ -51,7 +51,11 @@
   .education-content {
     flex: 1;              /* takes remaining space */
   }
-  
+  .department-name {
+      font-size: 0.95rem;
+      color: #555;
+  }
+
   /* School name and dates row */
   .school-header {
     display: flex;
@@ -59,12 +63,20 @@
     justify-content: space-between;
     margin-bottom: 4px;         /* small space below header */
   }
-  
+
+   /* Job description (for items that have details) */
+   .education-description {
+    margin: 8px 0;       /* space around description */
+    font-size: 0.95rem;
+    color: #555;
+  }
+
   /* School name style */
   .school-name {
     font-size: 1.2rem;     /* slightly larger for name */
     font-weight: bold;     /* bold text */
     color: #111;
+    margin-bottom: 2px; 
   }
   
   /* Dates style */

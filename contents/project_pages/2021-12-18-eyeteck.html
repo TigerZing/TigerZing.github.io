@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EyeTeck – Bachelor Thesis</title>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <!-- ===========================
+       Custom Styles for Page
+       =========================== -->
+  <style>
+    /* Body and general text styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: #02577a;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    /* ================================
+       Link-colored paragraphs
+       ================================ */
+    .center-link {
+      color: #02577a;
+      margin-bottom: 1rem;
+    }
+
+    .center-link i {
+      margin-right: 6px;
+    }
+
+    .trophy-link {
+      color: #418f36;
+      margin-bottom: 1.5rem;
+    }
+
+    .trophy-link i {
+      margin-right: 6px;
+    }
+
+    /* ================================
+       Slideshow container
+       ================================ */
+    .slideshow-container {
+      position: relative;
+      margin: 0 auto 20px auto;
+      max-width: 800px;
+      background-color: #f5f5f5;
+      border: 2px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .mySlides {
+      display: none; /* Hidden by default */
+      position: relative;
+    }
+
+    .mySlides img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .numbertext {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -24px;
+      padding: 12px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 0 4px 4px 0;
+      user-select: none;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .next {
+      right: 0;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    /* Fade animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Supervisor section styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    table img {
+      max-width: 100px;
+      border-radius: 10%;
+      display: block;
+    }
+
+    /* Heading for "Supervisor" */
+    .supervisor-title {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body style="max-width: 900px; justify-self: center;">
+  <!-- ===========================
+       Page Title
+       =========================== -->
+  <h1>
+    [Bachelor Thesis] EyeTeck: A System To Search People In Surveillance
+    Camera Network
+  </h1>
+
+  <!-- ===========================
+       Institution Link
+       =========================== -->
+  <p class="center-link">
+    <!-- English comment: Laboratory link with a globe icon -->
+    <i class="fa fa-globe"></i>
+    <a
+      href="https://mmlab.uit.edu.vn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Multimedia Communications Laboratory (MMLab), University of Information
+      Technology (UIT), Vietnam
+    </a>
+  </p>
+
+  <!-- ===========================
+       Awards / Achievements
+       =========================== -->
+  <p class="trophy-link">
+    <!-- English comment: Awards with trophy icons -->
+    <i class="fa fa-trophy"></i>
+    <a
+      href="https://attend.ieee.org/mmsp-2021/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <b
+        >Top highest grade of Bachelor's thesis defense 2018/07, UIT, Vietnam
+        (grade 9.8)</b
+      >
+    </a
+    ><br />
+    <i class="fa fa-trophy"></i>
+    <a
+      href="https://attend.ieee.org/mmsp-2021/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <b
+        >Top 10 teams - semifinal in Creative Idea for Smart City - Binh Duong
+        Competition 2018, Vietnam</b
+      >
+    </a>
+  </p>
+
+  <!-- ===========================
+       Project Description
+       =========================== -->
+  <p style="text-align: justify; color: black">
+    In this thesis, we developed an application to identify persons in
+    surveillance cameras, using video surveillance cameras from a building as
+    input. The target is finding a person with information, such as a photo of
+    a person's face or personal attribute information. We designed a framework
+    that utilizes facial features and person identification information to
+    find persons in CCTV cameras. The goals of this thesis are as follows:
+    first, to learn related techniques such as face detection, matching
+    algorithms, person detection, classification of a person's descriptive
+    information, object grouping, and so on; second, to develop a system with
+    the function of searching people in surveillance cameras; and finally, to
+    evaluate the application's search efficiency when combining related
+    techniques.
+  </p>
+
+  <!-- ===========================
+       Techniques & Frameworks
+       =========================== -->
+  <p style="color: black">
+    <b>Techniques:</b>
+    <br />
+    Face Detection, Face Tracking, Face Clustering, Pedestrian Detection, Person
+    Attributes Recognition
+    <br />
+    <b>Languages and Frameworks:</b>
+    <br />
+    Python, Django, OpenCV, HTML/CSS, JavaScript/AJAX
+  </p>
+
+  <!-- ===========================
+       Demo Video
+       =========================== -->
+  <!-- <p style="color: black">
+    <b><i class="fa fa-file-video-o"></i> DEMO VIDEO</b>
+  </p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/Ko8M0Uao6FE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe> -->
+
+  <!-- ===========================
+       Demo Gallery Slideshow
+       =========================== -->
+  <p style="color: black; margin-top: 20px">
+    <b><i class="fa fa-picture-o"></i> DEMO GALLERY</b>
+  </p>
+
+  <div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s1.png" alt="EyeTeck Slide 1" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s2.png" alt="EyeTeck Slide 2" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s3.png" alt="EyeTeck Slide 3" />
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s4.png" alt="EyeTeck Slide 4" />
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s5.png" alt="EyeTeck Slide 5" />
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="../../static/assets/eyeteck_imgs/s6.png" alt="EyeTeck Slide 6" />
+    </div>
+
+    <!-- Next/Previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <hr style="margin: 40px 0" />
+
+  <!-- ===========================
+       Supervisor Section
+       =========================== -->
+  <b class="supervisor-title" style="color: black">Supervisor</b>
+  <table cellspacing="15" style="margin: 0 auto; table-layout: fixed">
+    <tbody>
+      <tr>
+        <td width="15%">
+          <img src="../../static/assets/images/DuyLe.jpeg" alt="Duy-Dinh LE" />
+        </td>
+        <td>
+          <span
+            ><a
+              href="https://researchmap.jp/ledduy"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><b>Duy-Dinh LE (レイ ユイデン)</b></a
+            ></span
+          ><br />
+          <span style="color: black"
+            >Associate Professor, Head, Department of Graduate Studies – Science
+            Technology, University of Information Technology, Vietnam</span
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ===========================
+       Slideshow Script
+       =========================== -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    // Show the slide at index n
+    function showSlides(n) {
+      const slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+  </script>
+</body>
+</html>

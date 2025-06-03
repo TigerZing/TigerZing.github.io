@@ -1,0 +1,183 @@
+/* publications.css */
+
+/* 1. Background gray for Publications section */
+.profile-section-bg {
+  width: 100%;
+  background-color: #f5f5f5; /* Light gray */
+}
+
+/* 2. White “card” container */
+.publications-card {
+  margin: 0 auto;                  /* Center horizontally */
+  background-color: #ffffff;       /* White background */
+  border-radius: 8px;              /* Rounded corners */
+  padding: 20px 16px;              /* Padding inside card */
+}
+
+.back-icon {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+.back-icon:hover {
+  color: #007acc;
+}
+
+/* Remove underline on links using the no-underline class */
+a.no-underline {
+  text-decoration: none; /* remove default underline */
+  color: #005670;         /* optional: change link color */
+}
+a.no-underline:hover {
+  text-decoration: underline; /* add underline on hover if desired */
+  color: #005a99;             /* optional: darker color on hover */
+}
+
+.paper-icon img {
+  width: 30px;       /* keep original dimensions */
+  height: 30px;
+  object-fit: contain;
+  border: none;
+  transform: scale(0.8);  /* shrink to 50% */
+  transform-origin: center top;
+}
+.paper-icon {
+  display: inline-block;         /* behave like inline element */
+  margin-left: 6px;              /* space between date and icon */
+  vertical-align: middle;        /* align icon vertically with text */
+}
+.pub-title-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0;                       /* Reset margin */
+}
+
+.add-icon {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+.add-icon:hover {
+  color: #007acc;
+}
+
+/* 4. Container for list of publications */
+.pub-list {
+  margin-top: 0;
+}
+
+/* 5. Each publication item */
+.publication-item {
+  padding: 12px 0;                 /* Vertical padding top/bottom */
+}
+
+/* The top row: title + edit icon */
+.pub-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Title on left, icon on right */
+}
+
+/* Title of each publication */
+.pub-title {
+  font-size: 1.05rem;              /* Slightly larger than meta */
+  font-weight: 600;
+  color: #111;
+  line-height: 1.3;                /* Comfortable line height */
+  margin: 0;                       /* No default margin */
+  margin-right: 12px;              /* Space before edit-icon */
+  flex: 1;                         /* Allow title to wrap/expand */
+}
+
+/* Edit icon (✏) next to each title */
+.edit-icon {
+  font-size: 1rem;
+  color: #666;
+  text-decoration: none;
+  flex-shrink: 0;                  /* Không co cụm biểu tượng */
+  margin-left: 8px;               /* Khoảng cách so với title */
+}
+.edit-icon:hover {
+  color: #007acc;
+}
+
+/* Meta line: venue and date */
+.pub-meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0 8px 0;             /* 4px trên, 8px dưới */
+}
+
+.pub-venue {
+  font-weight: 500;
+}
+
+.pub-date {
+  margin-left: 6px;                /* Khoảng cách giữa venue và date */
+}
+
+/* Description (optional) */
+.pub-desc {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0 0 6px 0;               /* margin-bottom để tách tác giả */
+  line-height: 1.4;
+}
+
+/* Authors line */
+.pub-authors {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;                       /* Reset margin */
+}
+
+/* Divider between items */
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;       /* Light gray line */
+  margin: 0;                       /* Không thêm margin */
+}
+
+/* 6. Responsive adjustments */
+@media (max-width: 600px) {
+  .publications-card {
+    padding: 16px 12px;
+    max-width: 90%;              /* Card chiếm 90% khung trên mobile */
+  }
+  .pub-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .back-icon,
+  .add-icon {
+    font-size: 1.1rem;
+    padding: 4px 6px;
+  }
+  .pub-title-header {
+    margin: 8px 0;
+    font-size: 1.3rem;
+  }
+  .publication-item {
+    padding: 10px 0;
+  }
+  .pub-top-row {
+    flex-direction: column;
+  }
+  .pub-title {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 4px;         /* Khoảng cách giữa title và icon trên mobile */
+  }
+  .edit-icon {
+    align-self: flex-start;
+    margin-left: 0;
+  }
+  .pub-meta,
+  .pub-desc,
+  .pub-authors {
+    font-size: 0.85rem;
+  }
+}

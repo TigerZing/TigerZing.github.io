@@ -29,7 +29,9 @@
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="static/css/education.css">
     <link rel="stylesheet" href="static/css/experience.css">
+    <link rel="stylesheet" href="static/css/projects.css">
     <link rel="stylesheet" href="static/css/profile-header.css">
+    <link rel="stylesheet" href="static/css/publications.css">
 
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
@@ -85,7 +87,7 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
+            <!-- <a href="#page-top"><img src="static/static/assets/images/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -97,10 +99,19 @@
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#projects">PROJECTS</a>
+                        <a class="nav-link me-lg-3" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#education">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#projects">PROJECTS</a>
                     </li>
 
                 </ul>
@@ -108,7 +119,7 @@
         </div>
     </nav>
     <!-- Top Section -->
-    <!-- <section class="top-section" style="background-image: url('static/static/assets/img/background.jpeg');">
+    <!-- <section class="top-section" style="background-image: url('static/static/assets/images/background.jpeg');">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -120,35 +131,62 @@
     <!-- Photo -->
     <!-- <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/static/assets/img/photo.jpeg">
+            <img class="shadow" src="static/static/assets/images/photo.jpeg">
         </div>
     </div> -->
     <!-- Photo -->
     
     <!-- Home -->
+    
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
+          <div class="profile-header education-section">
+          </div>
             <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
+              <div class="profile-header" style="text-align: center">
+                <div class="avatar-container" style="justify-self: center;">
+                  <img
+                    src="static/assets/images/avatar.jpeg"
+                    alt="Ho Nguyen Tan"
+                    class="avatar-img"
+                  />
+                </div>
+                <h1 class="profile-name">
+                  Nguyen Tan Ho
+                  <span class="pronouns">He/Him</span>
+                </h1>
+                <p class="profile-title">Computer Vision | AI R&D Engineer</p>
+              </div>
+                <!-- <h3 id="home-subtitle"> Computer Vision |  AI R&D Engineer</h3> -->
             </header>
             <!-- <div class="main-body" id="home-md"></div> -->
-            <section class="education-section">
+            <section class="education-section" id="about">
+              <h2 class="section-title" style="text-align: center;">About</h2>
+              <div style="text-align: center;">
+                <p>
+                  Driven by passion and self-motivation, I am eager to design AI systems that address real-world challenges
+                   using the expertise I’ve amassed. Constantly curious and inventive, I never stop exploring new ideas and 
+                   techniques, and I remain committed to lifelong learning and growth in order to push the boundaries of what’s possible.
+                </p>
+                </div>
+            </section>
+            <section class="education-section" id="education">
                 <h2 class="section-title">Education</h2>
             
                 <!-- Education Item 1 -->
                 <div class="education-item">
                   <div class="school-logo">
-                    <img src="static/assets/img/hosei_logo.jpeg" alt="Hosei University Logo">
+                    <img src="static/assets/images/hosei_logo.png" alt="Hosei University Logo">
                   </div>
                   <div class="education-content">
                     <div class="school-header">
                       <h3 class="school-name">Master's Degree - Hosei University</h3>
-                      <!-- <span class="education-dates">Sep 2019 – Aug 2021</span> -->
+                      <span class="education-dates">2019 – 2021, Tokyo, Japan</span>
                     </div>
-                    <ul class="details-list">
-                        <li><strong>Department:</strong> Applied Informatics</li>
-                        <li><strong>Grade:</strong> 3.51</li>
+                    <span class="department-name">Science and Engineering - Applied Informatics</span>
+                    <div class="education-description">
+                      <p><strong>Grade</strong> 3.5 / 4.0</p>
+                    </div>
                   </div>
                 </div>
             
@@ -157,27 +195,27 @@
                 <!-- Education Item 2 -->
                 <div class="education-item">
                   <div class="school-logo">
-                    <img src="static/assets/img/uit_logo.jpeg" alt="University of Information Technology Logo">
+                    <img src="static/assets/images/uit_logo.png" alt="University of Information Technology Logo">
                   </div>
                   <div class="education-content">
                     <div class="school-header">
                       <h3 class="school-name">Bachelor's Degree - University of Information Technology</h3>
-                      <!-- <span class="education-dates">2014 – 2019</span> -->
+                      <span class="education-dates">2014 – 2019, Ho Chi Minh city, Vietnam</span>
                     </div>
-                    <ul class="details-list">
-                      <li><strong>Department:</strong> Computer Science</li>
-                      <li><strong>Thesis Grade:</strong> 9.8/10</li>
-                    </ul>
+                    <span class="department-name">Computer Science - Computer Vision</span>
+                    <div class="education-description">
+                      <p><strong>Graduation Thesis Grade</strong> 9.8 / 10</p>
+                    </div>
                   </div>
                 </div>
               </section>
-              <section class="experience-section">
+              <section class="experience-section" id="experience">
                 <h2 class="section-title">Experience</h2>
             
                 <!-- Experience Item 1 -->
                 <div class="experience-item">
                   <div class="company-logo">
-                    <img src="static/assets/img/ficha_logo.jpeg" alt="Ficha Inc. Logo">
+                    <img src="static/assets/images/ficha_logo.png" alt="Ficha Inc. Logo">
                   </div>
                   <div class="experience-content">
                     <div class="job-header">
@@ -191,7 +229,11 @@
                     <div class="skills-tag">
                       <span class="skill-badge">Deep Learning</span>
                       <span class="skill-badge">Python</span>
-                      <span class="skill-badge">+1 more</span>
+                      <span class="skill-badge">Pytorch</span>
+                      <span class="skill-badge">OpenCV</span>
+                      <span class="skill-badge">Numpy</span>
+                      <span class="skill-badge">Matplotlib</span>
+                      
                     </div>
                   </div>
                 </div>
@@ -201,7 +243,7 @@
                 <!-- Experience Item 2 -->
                 <div class="experience-item">
                   <div class="company-logo">
-                    <img src="static/assets/img/hosei_logo.jpeg" alt="Research Center HOSEI Logo">
+                    <img src="static/assets/images/hosei_logo.png" alt="Research Center HOSEI Logo">
                   </div>
                   <div class="experience-content">
                     <div class="job-header">
@@ -213,48 +255,378 @@
                       <span class="job-location">Tokyo, Japan</span>
                     </div>
                     <div class="skills-tag">
-                      <span class="skill-badge">Computer Vision</span>
+                      <span class="skill-badge">Deep Learning</span>
                       <span class="skill-badge">Python</span>
-                      <span class="skill-badge">+7 more</span>
+                      <span class="skill-badge">Pytorch</span>
+                      <span class="skill-badge">Matlab</span>
+                      <span class="skill-badge">Matplotlib</span>
+                      <span class="skill-badge">Streamlit</span>
+                      <span class="skill-badge">Pandas</span>
+                      <span class="skill-badge">SQL</span>
                     </div>
                   </div>
                 </div>
               </section>
+
+              <section class="experience-section" id="publications">
+                <h2 class="section-title">Publications</h2>
+                <div class="profile-section-bg">
+                  <!-- ==============================
+                       PUBLICATIONS CARD
+                       White container centered within the gray background
+                       ============================== -->
+                  <div class="publications-card">
+              
+                    <div class="pub-list">
+              
+                      <!-- Publication Item 1 -->
+                      <div class="publication-item">
+                        <!-- Top row: title and edit icon -->
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Towards knowing students’ emotional states from their voices while interacting with teachers
+                          </h3>
+                          
+                        </div>
+                        <!-- Venue and date -->
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="https://dl.acm.org/doi/proceedings/10.1145/3706468" target="_blank" rel="noopener noreferrer" class="no-underline">LAK’25</a></span></span>
+                          <span class="pub-date">· Dec 1, 2024</span>
+                          <a href=""
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+              
+                        <!-- Description or conference information -->
+                        <p class="pub-desc">
+                          Accepted in the 15th International Conference on Learning Analytics &amp; Knowledge (LAK’25)
+                        </p>
+              
+                        <!-- List of authors (repeated below for clarity) -->
+                        <p class="pub-authors">
+                          <strong>Ho Tan Nguyen</strong>, Mohammad Nehal Hasnine, and Hiroshi Ueda
+                        </p>
+                      </div>
+              
+                      <!-- Divider between items -->
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 2 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            SpeedDeblur: A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="https://signalprocessingsociety.org/blog/mmsp-2021-2021-ieee-international-workshop-multimedia-signal-processing" target="_blank" rel="noopener noreferrer" class="no-underline">IEEE MMSP 2021</a></span>
+                          <span class="pub-date">· Jul 23, 2021</span>
+                          <a href="https://ieeexplore.ieee.org/document/9733458"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Accepted in IEEE 23<sup>rd</sup> International Workshop on Multimedia Signal Processing
+                        </p>
+                        <p class="pub-authors">
+                          <strong>Ho Tan Nguyen</strong>, Chi Do-Kim Pham, and Jinjia Zhou
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 3 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Classroom Monitoring using Emotional Data
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="https://dl.acm.org/doi/proceedings/10.1145/3636555" target="_blank" rel="noopener noreferrer" class="no-underline">LAK’24</a></span>
+                          <span class="pub-date">· Apr 1, 2024</span>
+                          <a href="https://ceur-ws.org/Vol-3667/DC-LAK24-paper-10.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Accepted in the 14th International Conference on Learning Analytics &amp; Knowledge (LAK’24)
+                        </p>
+                        <p class="pub-authors">
+                          Mohammad Nehal Hasnine, <strong>Ho Nguyen Tan</strong>, Gökhan Akçapınar, Ryugo Morita, and Hiroshi Ueda
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 4 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Developing Taskcave system for task-based language teaching: Teachers monitoring how students learn outside classroom
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="http://kes2024.kesinternational.org/" target="_blank" rel="noopener noreferrer" class="no-underline">KES 2024</a></span>
+                          <span class="pub-date">· Jan 1, 2024</span>
+                          <a href="https://dl.acm.org/doi/10.1016/j.procs.2024.09.233"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Accepted in the 28th International Conference on Knowledge-Based and Intelligent Information &amp; Engineering Systems (KES 2024)
+                        </p>
+                        <p class="pub-authors">
+                          Mohammad Nehal Hasnine, <strong>Ho Nguyen Tan</strong>, and Hiroshi Ueda
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 5 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            A Real-Time Learning Analytics Dashboard for Automatic Detection of Online Learners’ Affective States
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="https://www.mdpi.com/1424-8220/23/9/4243" target="_blank" rel="noopener noreferrer" class="no-underline">Sensor</a></span>
+                          <span class="pub-date">· Mar 2, 2023</span>
+                          <a href="https://www.mdpi.com/1424-8220/23/9/4243"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Part of the Special Issue: Advances of Sensors and Human-Centered Intelligent Systems in Education
+                        </p>
+                        <p class="pub-authors">
+                          Mohammad Nehal Hasnine, <strong>Ho Tan Nguyen</strong>, Thuy Thi Thu Tran, Huyen T. T. Bui, Gökhan Akçapınar, and Hiroshi Ueda
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 6 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Briefing and Geovisualizing on International Practices of Learning Analytics in Higher Education
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="https://ieeexplore.ieee.org/xpl/conhome/9499715/proceeding" target="_blank" rel="noopener noreferrer" class="no-underline">IEEE ICALT 2021</a></span>
+                          <span class="pub-date">· Apr 13, 2021</span>
+                          <a href="https://ieeexplore.ieee.org/document/9499867"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Accepted in the 21st IEEE International Conference on Advanced Learning Technologies (ICALT 2021)
+                        </p>
+                        <p class="pub-authors">
+                          Hiroshi Ueda, <strong>Ho Tan Nguyen</strong>, Huyen T. T. Bui, Thuy T. Tran, H. Hatakeyama, and M. Nehal Hasnine
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 7 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Can Sakai Log Data Improve Learning Analytics? Findings from a Preliminary Survey
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue">
+                            <a href="https://ipsj.ixsq.nii.ac.jp/?page=1&size=20&sort=custom_sort&search_type=0&q=0" target="_blank" rel="noopener noreferrer" class="no-underline">
+                            Education and Learning Support Information System Research Presentation – Information Processing Society of Japan</a>
+                          </span>
+                          <span class="pub-date">· Mar 24, 2021</span>
+                          <a href="https://ipsj.ixsq.nii.ac.jp/?page=1&size=20&sort=custom_sort&search_type=0&q=0"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Presented in 33<sup>rd</sup> Education and Learning Support Information System Research Presentation – Information Processing Society of Japan
+                        </p>
+                        <p class="pub-authors">
+                          M. Nehal Hasnine, <strong>Ho Tan Nguyen</strong>, Huyen T. T. Bui, Thuy T. T. Tran, H. Hatakeyama, and H. Ueda
+                        </p>
+                      </div>
+              
+                      <div class="divider"></div>
+              
+                      <!-- Publication Item 8 -->
+                      <div class="publication-item">
+                        <div class="pub-top-row">
+                          <h3 class="pub-title">
+                            Students’ emotion extraction and visualization for engagement detection in online learning
+                          </h3>
+                          
+                        </div>
+                        <div class="pub-meta">
+                          <span class="pub-venue"><a href="http://kes2021.kesinternational.org/" target="_blank" rel="noopener noreferrer" class="no-underline">KES 2021</a></span>
+                          <span class="pub-date">· May 27, 2021</span>
+                          <a href="https://www.sciencedirect.com/science/article/pii/S1877050921018548"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="paper-icon"
+                          title="Open Paper">
+                         <img src="static/assets/images/paper.png" alt="Paper" />
+                       </a>
+                        </div>
+                        <p class="pub-desc">
+                          Accepted in the 25<sup>th</sup> International Conference on Knowledge-Based and Intelligent Information &amp; Engineering Systems (KES 2021)
+                        </p>
+                        <p class="pub-authors">
+                          M. Nehal Hasnine, Huyen T. T. Bui, Thuy T. T. Tran, <strong>Ho Tan Nguyen</strong>, Gökhan Akçapınar, and Hiroshi Ueda
+                        </p>
+                      </div>
+                      <!-- No divider after the last item -->
+                    </div>
+              
+                  </div>
+                </div>
+              </section>
+              <section class="experience-section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="container px-5">
+                  <!-- =======================================
+                       HORIZONTAL SCROLL CONTAINER (“slider”)
+                       - display: flex to lay out cards in a row
+                       - overflow-x: auto to enable horizontal scrolling
+                       ======================================= -->
+                  <div class="project-slider">
+                    <!-- ==== Project Card 1 ==== -->
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/speedDeblur.gif"
+                        alt="speedDeblur GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">SPEEDBLUR</h3>
+                        <p class="project-desc">
+                          A Framework to speed up CNN-based Deblurring for HEVC compressed video
+                        </p>
+                        <a
+                          href="contents/project_pages/2021-12-19-speedDeblur.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/moemo.gif"
+                        alt="moemo GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">MOEMO</h3>
+                        <p class="project-desc">
+                          Student Engagement Detection in online class
+                        </p>
+                        <a
+                          href="contents/project_pages/2021-12-04-moemo.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-card">
+                      <!--
+                        English comment:
+                        .project-img shows a static GIF/preview for the project.
+                        Replace the src attribute with your project’s actual GIF path.
+                      -->
+                      <img
+                        src="static/assets/project_thumbnails/thesis.gif"
+                        alt="thesis GIF"
+                        class="project-img"
+                      />
+                      <div class="project-info">
+                        <h3 class="project-title">EyeTeck</h3>
+                        <p class="project-desc">
+                          People Search in surveillance cameras network
+                        </p>
+                        <a
+                          href="contents/project_pages/2021-12-18-eyeteck.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="project-link"
+                        >
+                          View project &gt;
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
         </div>
     </section>
     <!-- Home -->
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="projects">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PROJECTS</h2>
-            </header>
-            <div class="main-body" id="projects-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>PUBLICATIONS </h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
-
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/TigerZing">Github</a>
+                <a id="github-link" href="https://github.com/TigerZing" target="_blank">Github</a>
                 <span class="mx-1">&middot;</span>
                 <a id="license-link" href="">License</a>
             </div>

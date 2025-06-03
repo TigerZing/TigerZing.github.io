@@ -1,0 +1,140 @@
+/* ===========================================
+   FILE: static/css/projects.css
+   Styles for the horizontal slider of project cards
+   =========================================== */
+
+/* 
+  English comment:
+  .project-slider creates a flex container that overflows horizontally.
+  - overflow-x: auto enables a scrollbar when cards exceed container width.
+  - gap: 1rem adds spacing between each card.
+  - padding-bottom: 10px ensures scrollbar does not overlap content.
+*/
+.project-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 10px;
+    margin-top: 1rem;
+  }
+  
+  /* 
+    English comment:
+    Hide default scrollbar background (for WebKit browsers). 
+    Users can still scroll horizontally with mouse wheel/touch.
+  */
+  .project-slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .project-slider::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .project-slider::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 191, 255, 0.6); /* semi-transparent neon-blue */
+    border-radius: 4px;
+  }
+  
+  /* 
+    English comment:
+    .project-card is each individual card inside the slider.
+    - flex: 0 0 300px locks each card’s width at 300px.
+    - background-color & border create the white card look with border.
+    - border-radius and box-shadow for a subtle “raised” effect.
+    =========================================== */
+  .project-card {
+    flex: 0 0 300px;                            
+    background-color: #ffffff;                   
+    border: 2px solid #00bfff;                   
+    border-radius: 4px;                          
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);     
+    overflow: hidden;                            
+    display: flex;                                
+    flex-direction: column;                      
+  }
+  
+  /* 
+    English comment:
+    .project-img displays the GIF at the top of each card.
+    - width: 100% ensures it spans the full card width.
+    - height: 160px fixes a uniform height for consistent layout.
+    - object-fit: cover crops or scales the GIF to fill the area.
+    =========================================== */
+  .project-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* 
+    English comment:
+    .project-info wraps the title, description, and link. 
+    - padding: 12px adds whitespace inside the card.
+    - flex: 1 ensures the info area expands to fill remaining vertical space,
+      pushing "View project" link to the bottom if necessary.
+    =========================================== */
+  .project-info {
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 
+    English comment:
+    .project-title styles the bold project name.
+    - margin-bottom: 6px adds space between title and description.
+    =========================================== */
+  .project-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 6px 0;
+  }
+  
+  /* 
+    English comment:
+    .project-desc is the short description under the title.
+    - font-size: 0.9rem and color: #444 make it slightly smaller and gray.
+    - margin-bottom: auto pushes the link down if there’s extra space.
+    =========================================== */
+  .project-desc {
+    font-size: 0.9rem;
+    color: #444;
+    margin: 0 0 auto 0;
+    line-height: 1.3;
+  }
+  
+  /* 
+    English comment:
+    .project-link styles the “View project >” link at the bottom.
+    - margin-top: auto pushes it to the bottom of .project-info.
+    - color: #00bfff for neon-blue accent.
+    - text-decoration: none removes underline.
+    =========================================== */
+  .project-link {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* 
+    English comment:
+    Responsive adjustment: on small screens, reduce card width and image height.
+    =========================================== */
+  @media (max-width: 767px) {
+    .project-card {
+      flex: 0 0 240px;       /* narrower cards for mobile */
+    }
+    .project-img {
+      height: 130px;
+    }
+  }
+  
