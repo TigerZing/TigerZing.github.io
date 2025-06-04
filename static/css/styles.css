@@ -10912,3 +10912,25 @@ footer a:hover, footer a:active, footer a:focus {
 
 
 
+/* Make the dropdown display as a small, neat menu */
+.lang‐selector {
+  display: inline-block;          /* So that it can sit in your navbar or header */
+  margin-left: 1rem;              /* Adjust spacing as needed */
+  vertical-align: middle;         /* Align with other inline elements */
+}
+
+#langSelect {
+  font-size: 0.9rem;               /* Slightly smaller text */
+  padding: 4px 8px;                /* Small internal padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+#langSelect:focus {
+  border-color: #02577a;           /* Highlight color on focus */
+  box-shadow: 0 0 3px rgba(2, 87, 122, 0.4);
+}
