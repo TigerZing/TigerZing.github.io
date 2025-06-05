@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="ja">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="NguyenTanHo Webpage" />
   <meta name="author" content="NguyenTanHo" />
-  <title>Trang cá nhân Nguyen Tan Ho</title>
+  <title>Nguyen Tan Ho の個人ページ</title>
 
-  <!-- Icon -->
+  <!-- アイコン -->
   <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
   <!-- Bootstrap icons-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 
-  <!-- Google fonts-->
+  <!-- Google フォント-->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
   <link
@@ -34,13 +34,13 @@
   <!-- Bootstrap core JS-->
   <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
-  <!-- For Compatibility -->
+  <!-- 互換性のため -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
   <!-- Markdown -->
   <script type="text/javascript" src="static/js/marked.min.js"></script>
 
-  <!-- Mathematics -->
+  <!-- MathJax -->
   <script>
     MathJax = {
       tex: {
@@ -72,7 +72,7 @@
   <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
   <style>
-    /* Body and general text styling */
+    /* 本文と一般テキストのスタイル */
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -102,7 +102,7 @@
       font-weight: bold;
     }
 
-    /* Link-colored paragraphs */
+    /* リンクカラーの段落 */
     .center-link {
       color: #02577a;
       margin-bottom: 1rem;
@@ -121,7 +121,7 @@
       margin-right: 6px;
     }
 
-    /* Slideshow container */
+    /* スライドショーコンテナ */
     .slideshow-container {
       position: relative;
       margin: 0 auto 20px auto;
@@ -155,7 +155,7 @@
       font-size: 0.9rem;
     }
 
-    /* Next & previous buttons */
+    /* 前へ・次へ ボタン */
     .prev,
     .next {
       cursor: pointer;
@@ -181,7 +181,7 @@
       background: rgba(0, 0, 0, 0.7);
     }
 
-    /* Fade animation */
+    /* フェードアニメーション */
     .fade {
       animation-name: fade;
       animation-duration: 1s;
@@ -197,7 +197,7 @@
       }
     }
 
-    /* Supervisor section styling */
+    /* 「指導教員」セクション */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -215,13 +215,13 @@
       display: block;
     }
 
-    /* Heading for "Supervisor" */
+    /* 「指導教員」見出し */
     .supervisor-title {
       font-size: 1rem;
       margin-bottom: 10px;
     }
 
-    /* Language selector */
+    /* 言語選択ドロップダウン */
     .lang‐selector {
       display: inline-block;
       margin-left: 1rem;
@@ -244,7 +244,7 @@
       box-shadow: 0 0 3px rgba(2, 87, 122, 0.4);
     }
 
-    /* Centering profile header */
+    /* プロフィールヘッダーを中央寄せ */
     .text-center {
       text-align: center;
     }
@@ -269,7 +269,7 @@
       margin: 0;
     }
 
-    /* Section titles */
+    /* セクションタイトル */
     .section-title {
       font-size: 1.6rem;
       margin-bottom: 1rem;
@@ -277,7 +277,7 @@
       padding-bottom: 0.5rem;
     }
 
-    /* Divider between publication items */
+    /* 公開リストの区切り線 */
     .divider {
       height: 1px;
       background-color: #ddd;
@@ -287,129 +287,128 @@
 </head>
 
 <body id="page-top">
-  <!-- Navigation-->
+  <!-- ナビゲーション -->
   <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
     <div class="container px-5">
       <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">Nguyen Tan Ho</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        MENU
+        メニュー
         <i class="bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#home">TRANG CHỦ</a>
+            <a class="nav-link me-lg-3" href="#home">ホーム</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#about">GIỚI THIỆU</a>
+            <a class="nav-link me-lg-3" href="#about">自己紹介</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#education">HỌC VẤN</a>
+            <a class="nav-link me-lg-3" href="#education">学歴</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#experience">KINH NGHIỆM</a>
+            <a class="nav-link me-lg-3" href="#experience">経験</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#publications">CÔNG BỐ KHOA HỌC</a>
+            <a class="nav-link me-lg-3" href="#publications">学術論文</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#projects">DỰ ÁN</a>
+            <a class="nav-link me-lg-3" href="#projects">プロジェクト</a>
           </li>
         </ul>
         <div class="lang‐selector">
-          <select id="langSelect" aria-label="Select language">
-            <!-- <option value="" disabled selected>Select Language</option> -->
+          <select id="langSelect" aria-label="言語を選択">
             <option value="index.html">English</option>
-            <option value="index-vn.html" selected>Tiếng Việt</option>
-            <option value="index-ja.html">日本語</option>
+            <option value="vn.html">Tiếng Việt</option>
+            <option value="ja.html" selected>日本語</option>
           </select>
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- Profile Header -->
+  <!-- プロフィールヘッダー -->
   <section id="profile-header">
     <div class="text-center">
       <img src="static/assets/images/avatar.jpeg" alt="Nguyen Tan Ho" class="profile-img" />
-      <h2 class="profile-name">Nguyễn Tấn Hổ <span style="font-size: 0.8rem; color: #666;">He/Him</span></h2>
-      <p class="profile-title"> Kỹ sư AI | Thị giác máy tính | Nhà nghiên cứu AI</p>
+      <h2 class="profile-name">グエン・タン・ホ <span style="font-size: 0.8rem; color: #666;">He/Him</span></h2>
+      <p class="profile-title">コンピュータビジョン | AIエンジニア | AI研究者</p>
     </div>
   </section>
 
-  <!-- Main Content -->
+  <!-- メインコンテンツ -->
   <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
     <div class="container px-5">
-      <!-- About -->
+      <!-- 自己紹介 -->
       <section class="education-section" id="about">
-        <h2 class="section-title" style="text-align: center;">GIỚI THIỆU</h2>
+        <h2 class="section-title" style="text-align: center;">自己紹介</h2>
         <div style="text-align: center;">
           <p>
-            Mang trong mình đam mê và động lực, tôi muốn áp dụng kinh nghiệm đã có để phát triển hệ thống AI giải quyết các vấn đề thực tiễn. <br>
-            Luôn tò mò, sáng tạo và không ngừng học hỏi để nâng cao năng lực.
+            情熱と自己動機に駆られ、これまで培った専門知識を活かして実世界の課題を解決するAIシステムを設計したいと考えています。
+            常に好奇心旺盛で創造的に新しいアイデアや技術を探求し、可能性の限界を広げるために生涯学習を続けることを誓います。
           </p>
         </div>
       </section>
 
-      <!-- Education -->
+      <!-- 学歴 -->
       <section class="education-section" id="education">
-        <h2 class="section-title">HỌC VẤN</h2>
+        <h2 class="section-title">学歴</h2>
 
-        <!-- Education Item 1 -->
+        <!-- 学歴アイテム 1 -->
         <div class="education-item">
           <div class="school-logo">
-            <img src="static/assets/images/hosei_logo.png" alt="Hosei University Logo" />
+            <img src="static/assets/images/hosei_logo.png" alt="法政大学ロゴ" />
           </div>
           <div class="education-content">
             <div class="school-header">
-              <h3 class="school-name">Thạc sĩ – Đại học Hosei</h3>
-              <span class="education-dates">2019 – 2021, Tokyo, Nhật Bản</span>
+              <h3 class="school-name">修士 – 法政大学</h3>
+              <span class="education-dates">2019 – 2021, 東京, 日本</span>
             </div>
-            <span class="department-name">Khoa Khoa học & Kỹ thuật – Thông tin ứng dụng</span>
+            <span class="department-name">理学・工学部 応用情報学科</span>
             <div class="education-description">
-              <p><strong>Điểm trung bình:</strong> 3.5 / 4.0</p>
+              <p><strong>成績：</strong>3.5 / 4.0</p>
             </div>
           </div>
         </div>
 
         <div class="divider"></div>
 
-        <!-- Education Item 2 -->
+        <!-- 学歴アイテム 2 -->
         <div class="education-item">
           <div class="school-logo">
-            <img src="static/assets/images/uit_logo.png" alt="University of Information Technology Logo" />
+            <img src="static/assets/images/uit_logo.png" alt="情報技術大学ロゴ" />
           </div>
           <div class="education-content">
             <div class="school-header">
-              <h3 class="school-name">Cử nhân – Đại học Công nghệ Thông tin - ĐHQG-TPHCM</h3>
-              <span class="education-dates">2014 – 2019, Thành phố Hồ Chí Minh, Việt Nam</span>
+              <h3 class="school-name">学士 – 情報技術大学</h3>
+              <span class="education-dates">2014 – 2019, ホーチミン市, ベトナム</span>
             </div>
-            <span class="department-name">Khoa Khoa học Máy tính – Thị giác máy tính</span>
+            <span class="department-name">コンピュータサイエンス学部 コンピュータビジョン専攻</span>
             <div class="education-description">
-              <p><strong>Điểm luận văn tốt nghiệp:</strong> 9.8 / 10</p>
+              <p><strong>卒業論文成績：</strong>9.8 / 10</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Experience -->
+      <!-- 経験 -->
       <section class="experience-section" id="experience">
-        <h2 class="section-title">KINH NGHIỆM</h2>
+        <h2 class="section-title">経験</h2>
 
-        <!-- Experience Item 1 -->
+        <!-- 経験アイテム 1 -->
         <div class="experience-item">
           <div class="company-logo">
-            <img src="static/assets/images/ficha_logo.png" alt="Ficha Inc. Logo" />
+            <img src="static/assets/images/ficha_logo.png" alt="フィーチャ株式会社ロゴ" />
           </div>
           <div class="experience-content">
             <div class="job-header">
-              <h3 class="job-title">Kỹ sư Thuật toán</h3>
-              <span class="company-name">フィーチャ株式会社 / Ficha Inc. · Nhân viên chính thức</span>
+              <h3 class="job-title">アルゴリズムエンジニア</h3>
+              <span class="company-name">フィーチャ株式会社 / Ficha Inc. · 正社員</span>
             </div>
             <div class="job-meta">
-              <span class="job-dates">Oct 2022 – Hiện tại · 2 năm 9 tháng</span>
-              <span class="job-location">Tokyo, Nhật Bản</span>
+              <span class="job-dates">2022年10月 – 現在 · 2年9ヶ月</span>
+              <span class="job-location">東京, 日本</span>
             </div>
             <div class="skills-tag">
               <span class="skill-badge">Deep Learning</span>
@@ -424,19 +423,19 @@
 
         <div class="divider"></div>
 
-        <!-- Experience Item 2 -->
+        <!-- 経験アイテム 2 -->
         <div class="experience-item">
           <div class="company-logo">
-            <img src="static/assets/images/hosei_logo.png" alt="Research Center HOSEI Logo" />
+            <img src="static/assets/images/hosei_logo.png" alt="法政大学多媒体研究センターロゴ" />
           </div>
           <div class="experience-content">
             <div class="job-header">
-              <h3 class="job-title">Kỹ sư R&D High Education</h3>
-              <span class="company-name">Trung tâm Tính toán & Nghiên cứu Đa phương tiện, Đại học Hosei · Hợp đồng</span>
+              <h3 class="job-title">研究開発エンジニア</h3>
+              <span class="company-name">法政大学 多媒体研究センター · 契約社員</span>
             </div>
             <div class="job-meta">
-              <span class="job-dates">Mar 2021 – Nov 2022 · 1 năm 9 tháng</span>
-              <span class="job-location">Tokyo, Nhật Bản</span>
+              <span class="job-dates">2021年3月 – 2022年11月 · 1年9ヶ月</span>
+              <span class="job-location">東京, 日本</span>
             </div>
             <div class="skills-tag">
               <span class="skill-badge">Deep Learning</span>
@@ -452,10 +451,10 @@
         </div>
       </section>
 
-      <!-- Publications -->
+      <!-- 出版物 -->
       <section class="experience-section" id="publications">
-        <h2 class="section-title">CÔNG BỐ KHOA HỌC</h2>
-        <img src="static/assets/images/Google_Scholar_logo.png" style="width: 120px;" alt="Google Scholar Logo" />
+        <h2 class="section-title">学術論文</h2>
+        <img src="static/assets/images/Google_Scholar_logo.png" style="width: 120px;" alt="Google Scholar ロゴ" />
         <a href="https://scholar.google.com/citations?user=1szhA1EAAAAJ&hl=en" target="_blank"
           rel="noopener noreferrer" style="color: #02577a; text-decoration: none;">
           <i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;Google Scholar
@@ -681,31 +680,31 @@
                   Akçapınar, and Hiroshi Ueda
                 </p>
               </div>
-              <!-- No divider after the last item -->
+              <!-- 最後のアイテムの後には区切り線なし -->
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Projects -->
+      <!-- プロジェクト -->
       <section class="experience-section" id="projects">
-        <h2 class="section-title">DỰ ÁN</h2>
+        <h2 class="section-title">プロジェクト</h2>
 
         <div class="container px-5">
-          <!-- HORIZONTAL SCROLL CONTAINER (“slider”) -->
+          <!-- 横スクロールコンテナ (“slider”) -->
           <div class="project-slider">
             <!-- Project Card 1 -->
             <div class="project-card">
-              <!-- .project-img hiển thị GIF/tĩnh cho dự án -->
+              <!-- .project-img はプロジェクトの GIF/静止画を表示 -->
               <img src="static/assets/project_thumbnails/speedDeblur.gif" alt="speedDeblur GIF" class="project-img" />
               <div class="project-info">
                 <h3 class="project-title">SPEEDBLUR</h3>
                 <p class="project-desc">
-                  Một Framework giải mờ sử dụng mạng CNN cho video nén chuẩn HEVC
+                  HEVC 圧縮ビデオ向け CNN ベース・デブラーリング高速化フレームワーク
                 </p>
                 <a href="contents/project_pages/2021-12-19-speedDeblur.html" target="_blank" rel="noopener noreferrer"
                   class="project-link">
-                  Xem dự án &gt;
+                  プロジェクトを見る &gt;
                 </a>
               </div>
             </div>
@@ -716,11 +715,11 @@
               <div class="project-info">
                 <h3 class="project-title">MOEMO</h3>
                 <p class="project-desc">
-                  Hệ thống phân tích và đánh giá mức độ tương tác của học sinh trong lớp học trực tuyến
+                  システムはオンライン授業における生徒の参加度を分析・評価します。
                 </p>
                 <a href="contents/project_pages/2021-12-04-moemo.html" target="_blank" rel="noopener noreferrer"
                   class="project-link">
-                  Xem dự án &gt;
+                  プロジェクトを見る &gt;
                 </a>
               </div>
             </div>
@@ -731,11 +730,11 @@
               <div class="project-info">
                 <h3 class="project-title">EyeTeck</h3>
                 <p class="project-desc">
-                  Hệ thống tìm kiếm người trong mạng lưới camera giám sát tòa nhà
+                  監視カメラネットワーク上で人物を検索するシステム
                 </p>
                 <a href="contents/project_pages/2021-12-18-eyeteck.html" target="_blank" rel="noopener noreferrer"
                   class="project-link">
-                  Xem dự án &gt;
+                  プロジェクトを見る &gt;
                 </a>
               </div>
             </div>
@@ -745,7 +744,7 @@
     </div>
   </section>
 
-  <!-- Footer-->
+  <!-- フッター -->
   <footer class="bg-bottom text-center py-5">
     <div class="container px-5">
       <div class="text-white-50 small">
@@ -757,7 +756,7 @@
     </div>
   </footer>
 
-  <!-- Language selector script -->
+  <!-- 言語選択ドロップダウンのスクリプト -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const langSelect = document.getElementById('langSelect');
